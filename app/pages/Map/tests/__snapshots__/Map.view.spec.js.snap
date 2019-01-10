@@ -1,0 +1,1307 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Map snapshots Scenario 1 matches snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Map
+    actions={
+      Object {
+        "createPlace": [MockFunction],
+        "loadPlaces": [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+          "results": Array [
+            Object {
+              "isThrow": false,
+              "value": undefined,
+            },
+          ],
+        },
+      }
+    }
+    classes={Object {}}
+    places={
+      Array [
+        Object {
+          "id": 1,
+          "lat": 100,
+          "lon": 40,
+        },
+        Object {
+          "id": 2,
+          "lat": 100,
+          "lon": 40,
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <WithStyles(Button)
+          aria-label="Add"
+          className=""
+          color="primary"
+          onClick={[Function]}
+          variant="fab"
+        >
+          <pure(AddIcon) />
+        </WithStyles(Button)>,
+        <NewPlace
+          createPlace={[Function]}
+          formOpen={false}
+          handleClose={[Function]}
+          places={Array []}
+          popupInfo={null}
+          viewport={
+            Object {
+              "bearing": 0,
+              "height": 704,
+              "latitude": 39.7392,
+              "longitude": -104.9903,
+              "maxZoom": 18,
+              "pitch": 0,
+              "width": 1024,
+              "zoom": 10,
+            }
+          }
+        />,
+        <div>
+          <InteractiveMap
+            attributionControl={true}
+            bearing={0}
+            className=""
+            clickRadius={0}
+            container={<body />}
+            disableTokenWarning={false}
+            doubleClickZoom={true}
+            dragPan={true}
+            dragRotate={true}
+            getCursor={[Function]}
+            height={704}
+            keyboard={true}
+            latitude={39.7392}
+            longitude={-104.9903}
+            mapOptions={Object {}}
+            mapStyle="mapbox://styles/owenlamb/cjlfragh72pll2rpb8n4j2j0e"
+            mapboxApiAccessToken="pk.eyJ1Ijoib3dlbmxhbWIiLCJhIjoiY2lleWljcnF4MDBiOXQ0bHR0anRvamtucSJ9.t3YnHHqvQZ8Y0MTCNy0NNw"
+            maxPitch={60}
+            maxZoom={18}
+            minPitch={0}
+            minZoom={0}
+            onClick={null}
+            onContextMenu={[Function]}
+            onError={[Function]}
+            onHover={null}
+            onLoad={[Function]}
+            onResize={[Function]}
+            onStateChange={[Function]}
+            onTransitionEnd={[Function]}
+            onTransitionInterrupt={[Function]}
+            onTransitionStart={[Function]}
+            onViewStateChange={null}
+            onViewportChange={[Function]}
+            pitch={0}
+            preserveDrawingBuffer={false}
+            preventStyleDiffing={false}
+            reuseMaps={false}
+            scrollZoom={true}
+            style={null}
+            touchAction="none"
+            touchRotate={false}
+            touchZoom={true}
+            transitionDuration={0}
+            transitionEasing={[Function]}
+            transitionInterpolator={
+              LinearInterpolator {
+                "around": undefined,
+                "propNames": Array [
+                  "longitude",
+                  "latitude",
+                  "zoom",
+                  "bearing",
+                  "pitch",
+                ],
+              }
+            }
+            transitionInterruption={1}
+            visibilityConstraints={
+              Object {
+                "maxPitch": 60,
+                "maxZoom": 24,
+                "minPitch": 0,
+                "minZoom": 0,
+              }
+            }
+            visible={true}
+            width={1024}
+            zoom={10}
+          >
+            <Marker
+              captureClick={true}
+              captureDoubleClick={true}
+              captureDrag={true}
+              captureScroll={false}
+              className=""
+              draggable={false}
+              latitude={100}
+              longitude={40}
+              offsetLeft={0}
+              offsetTop={0}
+            >
+              <MapPin
+                onClick={[Function]}
+                size={20}
+              />
+            </Marker>
+            <Marker
+              captureClick={true}
+              captureDoubleClick={true}
+              captureDrag={true}
+              captureScroll={false}
+              className=""
+              draggable={false}
+              latitude={100}
+              longitude={40}
+              offsetLeft={0}
+              offsetTop={0}
+            >
+              <MapPin
+                onClick={[Function]}
+                size={20}
+              />
+            </Marker>
+            <div
+              className="nav"
+              style={
+                Object {
+                  "left": 0,
+                  "padding": "10px",
+                  "position": "absolute",
+                  "top": 0,
+                }
+              }
+            >
+              <NavigationControl
+                captureClick={true}
+                captureDoubleClick={true}
+                captureDrag={true}
+                captureScroll={false}
+                className=""
+                onViewStateChange={[Function]}
+                onViewportChange={[Function]}
+                showCompass={true}
+                showZoom={true}
+              />
+            </div>
+          </InteractiveMap>
+        </div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "aria-label": "Add",
+          "children": <pure(AddIcon) />,
+          "className": "",
+          "color": "primary",
+          "onClick": [Function],
+          "variant": "fab",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "createPlace": [Function],
+          "formOpen": false,
+          "handleClose": [Function],
+          "places": Array [],
+          "popupInfo": null,
+          "viewport": Object {
+            "bearing": 0,
+            "height": 704,
+            "latitude": 39.7392,
+            "longitude": -104.9903,
+            "maxZoom": 18,
+            "pitch": 0,
+            "width": 1024,
+            "zoom": 10,
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <InteractiveMap
+            attributionControl={true}
+            bearing={0}
+            className=""
+            clickRadius={0}
+            container={<body />}
+            disableTokenWarning={false}
+            doubleClickZoom={true}
+            dragPan={true}
+            dragRotate={true}
+            getCursor={[Function]}
+            height={704}
+            keyboard={true}
+            latitude={39.7392}
+            longitude={-104.9903}
+            mapOptions={Object {}}
+            mapStyle="mapbox://styles/owenlamb/cjlfragh72pll2rpb8n4j2j0e"
+            mapboxApiAccessToken="pk.eyJ1Ijoib3dlbmxhbWIiLCJhIjoiY2lleWljcnF4MDBiOXQ0bHR0anRvamtucSJ9.t3YnHHqvQZ8Y0MTCNy0NNw"
+            maxPitch={60}
+            maxZoom={18}
+            minPitch={0}
+            minZoom={0}
+            onClick={null}
+            onContextMenu={[Function]}
+            onError={[Function]}
+            onHover={null}
+            onLoad={[Function]}
+            onResize={[Function]}
+            onStateChange={[Function]}
+            onTransitionEnd={[Function]}
+            onTransitionInterrupt={[Function]}
+            onTransitionStart={[Function]}
+            onViewStateChange={null}
+            onViewportChange={[Function]}
+            pitch={0}
+            preserveDrawingBuffer={false}
+            preventStyleDiffing={false}
+            reuseMaps={false}
+            scrollZoom={true}
+            style={null}
+            touchAction="none"
+            touchRotate={false}
+            touchZoom={true}
+            transitionDuration={0}
+            transitionEasing={[Function]}
+            transitionInterpolator={
+              LinearInterpolator {
+                "around": undefined,
+                "propNames": Array [
+                  "longitude",
+                  "latitude",
+                  "zoom",
+                  "bearing",
+                  "pitch",
+                ],
+              }
+            }
+            transitionInterruption={1}
+            visibilityConstraints={
+              Object {
+                "maxPitch": 60,
+                "maxZoom": 24,
+                "minPitch": 0,
+                "minZoom": 0,
+              }
+            }
+            visible={true}
+            width={1024}
+            zoom={10}
+          >
+            <Marker
+              captureClick={true}
+              captureDoubleClick={true}
+              captureDrag={true}
+              captureScroll={false}
+              className=""
+              draggable={false}
+              latitude={100}
+              longitude={40}
+              offsetLeft={0}
+              offsetTop={0}
+            >
+              <MapPin
+                onClick={[Function]}
+                size={20}
+              />
+            </Marker>
+            <Marker
+              captureClick={true}
+              captureDoubleClick={true}
+              captureDrag={true}
+              captureScroll={false}
+              className=""
+              draggable={false}
+              latitude={100}
+              longitude={40}
+              offsetLeft={0}
+              offsetTop={0}
+            >
+              <MapPin
+                onClick={[Function]}
+                size={20}
+              />
+            </Marker>
+            <div
+              className="nav"
+              style={
+                Object {
+                  "left": 0,
+                  "padding": "10px",
+                  "position": "absolute",
+                  "top": 0,
+                }
+              }
+            >
+              <NavigationControl
+                captureClick={true}
+                captureDoubleClick={true}
+                captureDrag={true}
+                captureScroll={false}
+                className=""
+                onViewStateChange={[Function]}
+                onViewportChange={[Function]}
+                showCompass={true}
+                showZoom={true}
+              />
+            </div>
+          </InteractiveMap>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "attributionControl": true,
+            "bearing": 0,
+            "children": Array [
+              Array [
+                <Marker
+                  captureClick={true}
+                  captureDoubleClick={true}
+                  captureDrag={true}
+                  captureScroll={false}
+                  className=""
+                  draggable={false}
+                  latitude={100}
+                  longitude={40}
+                  offsetLeft={0}
+                  offsetTop={0}
+                >
+                  <MapPin
+                    onClick={[Function]}
+                    size={20}
+                  />
+                </Marker>,
+                <Marker
+                  captureClick={true}
+                  captureDoubleClick={true}
+                  captureDrag={true}
+                  captureScroll={false}
+                  className=""
+                  draggable={false}
+                  latitude={100}
+                  longitude={40}
+                  offsetLeft={0}
+                  offsetTop={0}
+                >
+                  <MapPin
+                    onClick={[Function]}
+                    size={20}
+                  />
+                </Marker>,
+              ],
+              null,
+              <div
+                className="nav"
+                style={
+                  Object {
+                    "left": 0,
+                    "padding": "10px",
+                    "position": "absolute",
+                    "top": 0,
+                  }
+                }
+              >
+                <NavigationControl
+                  captureClick={true}
+                  captureDoubleClick={true}
+                  captureDrag={true}
+                  captureScroll={false}
+                  className=""
+                  onViewStateChange={[Function]}
+                  onViewportChange={[Function]}
+                  showCompass={true}
+                  showZoom={true}
+                />
+              </div>,
+            ],
+            "className": "",
+            "clickRadius": 0,
+            "container": <body />,
+            "disableTokenWarning": false,
+            "doubleClickZoom": true,
+            "dragPan": true,
+            "dragRotate": true,
+            "getCursor": [Function],
+            "height": 704,
+            "keyboard": true,
+            "latitude": 39.7392,
+            "longitude": -104.9903,
+            "mapOptions": Object {},
+            "mapStyle": "mapbox://styles/owenlamb/cjlfragh72pll2rpb8n4j2j0e",
+            "mapboxApiAccessToken": "pk.eyJ1Ijoib3dlbmxhbWIiLCJhIjoiY2lleWljcnF4MDBiOXQ0bHR0anRvamtucSJ9.t3YnHHqvQZ8Y0MTCNy0NNw",
+            "maxPitch": 60,
+            "maxZoom": 18,
+            "minPitch": 0,
+            "minZoom": 0,
+            "onClick": null,
+            "onContextMenu": [Function],
+            "onError": [Function],
+            "onHover": null,
+            "onLoad": [Function],
+            "onResize": [Function],
+            "onStateChange": [Function],
+            "onTransitionEnd": [Function],
+            "onTransitionInterrupt": [Function],
+            "onTransitionStart": [Function],
+            "onViewStateChange": null,
+            "onViewportChange": [Function],
+            "pitch": 0,
+            "preserveDrawingBuffer": false,
+            "preventStyleDiffing": false,
+            "reuseMaps": false,
+            "scrollZoom": true,
+            "style": null,
+            "touchAction": "none",
+            "touchRotate": false,
+            "touchZoom": true,
+            "transitionDuration": 0,
+            "transitionEasing": [Function],
+            "transitionInterpolator": LinearInterpolator {
+              "around": undefined,
+              "propNames": Array [
+                "longitude",
+                "latitude",
+                "zoom",
+                "bearing",
+                "pitch",
+              ],
+            },
+            "transitionInterruption": 1,
+            "visibilityConstraints": Object {
+              "maxPitch": 60,
+              "maxZoom": 24,
+              "minPitch": 0,
+              "minZoom": 0,
+            },
+            "visible": true,
+            "width": 1024,
+            "zoom": 10,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "class",
+              "props": Object {
+                "captureClick": true,
+                "captureDoubleClick": true,
+                "captureDrag": true,
+                "captureScroll": false,
+                "children": <MapPin
+                  onClick={[Function]}
+                  size={20}
+                />,
+                "className": "",
+                "draggable": false,
+                "latitude": 100,
+                "longitude": 40,
+                "offsetLeft": 0,
+                "offsetTop": 0,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "onClick": [Function],
+                  "size": 20,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "class",
+              "props": Object {
+                "captureClick": true,
+                "captureDoubleClick": true,
+                "captureDrag": true,
+                "captureScroll": false,
+                "children": <MapPin
+                  onClick={[Function]}
+                  size={20}
+                />,
+                "className": "",
+                "draggable": false,
+                "latitude": 100,
+                "longitude": 40,
+                "offsetLeft": 0,
+                "offsetTop": 0,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "onClick": [Function],
+                  "size": 20,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            null,
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <NavigationControl
+                  captureClick={true}
+                  captureDoubleClick={true}
+                  captureDrag={true}
+                  captureScroll={false}
+                  className=""
+                  onViewStateChange={[Function]}
+                  onViewportChange={[Function]}
+                  showCompass={true}
+                  showZoom={true}
+                />,
+                "className": "nav",
+                "style": Object {
+                  "left": 0,
+                  "padding": "10px",
+                  "position": "absolute",
+                  "top": 0,
+                },
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "captureClick": true,
+                  "captureDoubleClick": true,
+                  "captureDrag": true,
+                  "captureScroll": false,
+                  "className": "",
+                  "onViewStateChange": [Function],
+                  "onViewportChange": [Function],
+                  "showCompass": true,
+                  "showZoom": true,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+          ],
+          "type": [Function],
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <WithStyles(Button)
+            aria-label="Add"
+            className=""
+            color="primary"
+            onClick={[Function]}
+            variant="fab"
+          >
+            <pure(AddIcon) />
+          </WithStyles(Button)>,
+          <NewPlace
+            createPlace={[Function]}
+            formOpen={false}
+            handleClose={[Function]}
+            places={Array []}
+            popupInfo={null}
+            viewport={
+              Object {
+                "bearing": 0,
+                "height": 704,
+                "latitude": 39.7392,
+                "longitude": -104.9903,
+                "maxZoom": 18,
+                "pitch": 0,
+                "width": 1024,
+                "zoom": 10,
+              }
+            }
+          />,
+          <div>
+            <InteractiveMap
+              attributionControl={true}
+              bearing={0}
+              className=""
+              clickRadius={0}
+              container={<body />}
+              disableTokenWarning={false}
+              doubleClickZoom={true}
+              dragPan={true}
+              dragRotate={true}
+              getCursor={[Function]}
+              height={704}
+              keyboard={true}
+              latitude={39.7392}
+              longitude={-104.9903}
+              mapOptions={Object {}}
+              mapStyle="mapbox://styles/owenlamb/cjlfragh72pll2rpb8n4j2j0e"
+              mapboxApiAccessToken="pk.eyJ1Ijoib3dlbmxhbWIiLCJhIjoiY2lleWljcnF4MDBiOXQ0bHR0anRvamtucSJ9.t3YnHHqvQZ8Y0MTCNy0NNw"
+              maxPitch={60}
+              maxZoom={18}
+              minPitch={0}
+              minZoom={0}
+              onClick={null}
+              onContextMenu={[Function]}
+              onError={[Function]}
+              onHover={null}
+              onLoad={[Function]}
+              onResize={[Function]}
+              onStateChange={[Function]}
+              onTransitionEnd={[Function]}
+              onTransitionInterrupt={[Function]}
+              onTransitionStart={[Function]}
+              onViewStateChange={null}
+              onViewportChange={[Function]}
+              pitch={0}
+              preserveDrawingBuffer={false}
+              preventStyleDiffing={false}
+              reuseMaps={false}
+              scrollZoom={true}
+              style={null}
+              touchAction="none"
+              touchRotate={false}
+              touchZoom={true}
+              transitionDuration={0}
+              transitionEasing={[Function]}
+              transitionInterpolator={
+                LinearInterpolator {
+                  "around": undefined,
+                  "propNames": Array [
+                    "longitude",
+                    "latitude",
+                    "zoom",
+                    "bearing",
+                    "pitch",
+                  ],
+                }
+              }
+              transitionInterruption={1}
+              visibilityConstraints={
+                Object {
+                  "maxPitch": 60,
+                  "maxZoom": 24,
+                  "minPitch": 0,
+                  "minZoom": 0,
+                }
+              }
+              visible={true}
+              width={1024}
+              zoom={10}
+            >
+              <Marker
+                captureClick={true}
+                captureDoubleClick={true}
+                captureDrag={true}
+                captureScroll={false}
+                className=""
+                draggable={false}
+                latitude={100}
+                longitude={40}
+                offsetLeft={0}
+                offsetTop={0}
+              >
+                <MapPin
+                  onClick={[Function]}
+                  size={20}
+                />
+              </Marker>
+              <Marker
+                captureClick={true}
+                captureDoubleClick={true}
+                captureDrag={true}
+                captureScroll={false}
+                className=""
+                draggable={false}
+                latitude={100}
+                longitude={40}
+                offsetLeft={0}
+                offsetTop={0}
+              >
+                <MapPin
+                  onClick={[Function]}
+                  size={20}
+                />
+              </Marker>
+              <div
+                className="nav"
+                style={
+                  Object {
+                    "left": 0,
+                    "padding": "10px",
+                    "position": "absolute",
+                    "top": 0,
+                  }
+                }
+              >
+                <NavigationControl
+                  captureClick={true}
+                  captureDoubleClick={true}
+                  captureDrag={true}
+                  captureScroll={false}
+                  className=""
+                  onViewStateChange={[Function]}
+                  onViewportChange={[Function]}
+                  showCompass={true}
+                  showZoom={true}
+                />
+              </div>
+            </InteractiveMap>
+          </div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "aria-label": "Add",
+            "children": <pure(AddIcon) />,
+            "className": "",
+            "color": "primary",
+            "onClick": [Function],
+            "variant": "fab",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "createPlace": [Function],
+            "formOpen": false,
+            "handleClose": [Function],
+            "places": Array [],
+            "popupInfo": null,
+            "viewport": Object {
+              "bearing": 0,
+              "height": 704,
+              "latitude": 39.7392,
+              "longitude": -104.9903,
+              "maxZoom": 18,
+              "pitch": 0,
+              "width": 1024,
+              "zoom": 10,
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <InteractiveMap
+              attributionControl={true}
+              bearing={0}
+              className=""
+              clickRadius={0}
+              container={<body />}
+              disableTokenWarning={false}
+              doubleClickZoom={true}
+              dragPan={true}
+              dragRotate={true}
+              getCursor={[Function]}
+              height={704}
+              keyboard={true}
+              latitude={39.7392}
+              longitude={-104.9903}
+              mapOptions={Object {}}
+              mapStyle="mapbox://styles/owenlamb/cjlfragh72pll2rpb8n4j2j0e"
+              mapboxApiAccessToken="pk.eyJ1Ijoib3dlbmxhbWIiLCJhIjoiY2lleWljcnF4MDBiOXQ0bHR0anRvamtucSJ9.t3YnHHqvQZ8Y0MTCNy0NNw"
+              maxPitch={60}
+              maxZoom={18}
+              minPitch={0}
+              minZoom={0}
+              onClick={null}
+              onContextMenu={[Function]}
+              onError={[Function]}
+              onHover={null}
+              onLoad={[Function]}
+              onResize={[Function]}
+              onStateChange={[Function]}
+              onTransitionEnd={[Function]}
+              onTransitionInterrupt={[Function]}
+              onTransitionStart={[Function]}
+              onViewStateChange={null}
+              onViewportChange={[Function]}
+              pitch={0}
+              preserveDrawingBuffer={false}
+              preventStyleDiffing={false}
+              reuseMaps={false}
+              scrollZoom={true}
+              style={null}
+              touchAction="none"
+              touchRotate={false}
+              touchZoom={true}
+              transitionDuration={0}
+              transitionEasing={[Function]}
+              transitionInterpolator={
+                LinearInterpolator {
+                  "around": undefined,
+                  "propNames": Array [
+                    "longitude",
+                    "latitude",
+                    "zoom",
+                    "bearing",
+                    "pitch",
+                  ],
+                }
+              }
+              transitionInterruption={1}
+              visibilityConstraints={
+                Object {
+                  "maxPitch": 60,
+                  "maxZoom": 24,
+                  "minPitch": 0,
+                  "minZoom": 0,
+                }
+              }
+              visible={true}
+              width={1024}
+              zoom={10}
+            >
+              <Marker
+                captureClick={true}
+                captureDoubleClick={true}
+                captureDrag={true}
+                captureScroll={false}
+                className=""
+                draggable={false}
+                latitude={100}
+                longitude={40}
+                offsetLeft={0}
+                offsetTop={0}
+              >
+                <MapPin
+                  onClick={[Function]}
+                  size={20}
+                />
+              </Marker>
+              <Marker
+                captureClick={true}
+                captureDoubleClick={true}
+                captureDrag={true}
+                captureScroll={false}
+                className=""
+                draggable={false}
+                latitude={100}
+                longitude={40}
+                offsetLeft={0}
+                offsetTop={0}
+              >
+                <MapPin
+                  onClick={[Function]}
+                  size={20}
+                />
+              </Marker>
+              <div
+                className="nav"
+                style={
+                  Object {
+                    "left": 0,
+                    "padding": "10px",
+                    "position": "absolute",
+                    "top": 0,
+                  }
+                }
+              >
+                <NavigationControl
+                  captureClick={true}
+                  captureDoubleClick={true}
+                  captureDrag={true}
+                  captureScroll={false}
+                  className=""
+                  onViewStateChange={[Function]}
+                  onViewportChange={[Function]}
+                  showCompass={true}
+                  showZoom={true}
+                />
+              </div>
+            </InteractiveMap>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "attributionControl": true,
+              "bearing": 0,
+              "children": Array [
+                Array [
+                  <Marker
+                    captureClick={true}
+                    captureDoubleClick={true}
+                    captureDrag={true}
+                    captureScroll={false}
+                    className=""
+                    draggable={false}
+                    latitude={100}
+                    longitude={40}
+                    offsetLeft={0}
+                    offsetTop={0}
+                  >
+                    <MapPin
+                      onClick={[Function]}
+                      size={20}
+                    />
+                  </Marker>,
+                  <Marker
+                    captureClick={true}
+                    captureDoubleClick={true}
+                    captureDrag={true}
+                    captureScroll={false}
+                    className=""
+                    draggable={false}
+                    latitude={100}
+                    longitude={40}
+                    offsetLeft={0}
+                    offsetTop={0}
+                  >
+                    <MapPin
+                      onClick={[Function]}
+                      size={20}
+                    />
+                  </Marker>,
+                ],
+                null,
+                <div
+                  className="nav"
+                  style={
+                    Object {
+                      "left": 0,
+                      "padding": "10px",
+                      "position": "absolute",
+                      "top": 0,
+                    }
+                  }
+                >
+                  <NavigationControl
+                    captureClick={true}
+                    captureDoubleClick={true}
+                    captureDrag={true}
+                    captureScroll={false}
+                    className=""
+                    onViewStateChange={[Function]}
+                    onViewportChange={[Function]}
+                    showCompass={true}
+                    showZoom={true}
+                  />
+                </div>,
+              ],
+              "className": "",
+              "clickRadius": 0,
+              "container": <body />,
+              "disableTokenWarning": false,
+              "doubleClickZoom": true,
+              "dragPan": true,
+              "dragRotate": true,
+              "getCursor": [Function],
+              "height": 704,
+              "keyboard": true,
+              "latitude": 39.7392,
+              "longitude": -104.9903,
+              "mapOptions": Object {},
+              "mapStyle": "mapbox://styles/owenlamb/cjlfragh72pll2rpb8n4j2j0e",
+              "mapboxApiAccessToken": "pk.eyJ1Ijoib3dlbmxhbWIiLCJhIjoiY2lleWljcnF4MDBiOXQ0bHR0anRvamtucSJ9.t3YnHHqvQZ8Y0MTCNy0NNw",
+              "maxPitch": 60,
+              "maxZoom": 18,
+              "minPitch": 0,
+              "minZoom": 0,
+              "onClick": null,
+              "onContextMenu": [Function],
+              "onError": [Function],
+              "onHover": null,
+              "onLoad": [Function],
+              "onResize": [Function],
+              "onStateChange": [Function],
+              "onTransitionEnd": [Function],
+              "onTransitionInterrupt": [Function],
+              "onTransitionStart": [Function],
+              "onViewStateChange": null,
+              "onViewportChange": [Function],
+              "pitch": 0,
+              "preserveDrawingBuffer": false,
+              "preventStyleDiffing": false,
+              "reuseMaps": false,
+              "scrollZoom": true,
+              "style": null,
+              "touchAction": "none",
+              "touchRotate": false,
+              "touchZoom": true,
+              "transitionDuration": 0,
+              "transitionEasing": [Function],
+              "transitionInterpolator": LinearInterpolator {
+                "around": undefined,
+                "propNames": Array [
+                  "longitude",
+                  "latitude",
+                  "zoom",
+                  "bearing",
+                  "pitch",
+                ],
+              },
+              "transitionInterruption": 1,
+              "visibilityConstraints": Object {
+                "maxPitch": 60,
+                "maxZoom": 24,
+                "minPitch": 0,
+                "minZoom": 0,
+              },
+              "visible": true,
+              "width": 1024,
+              "zoom": 10,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "0",
+                "nodeType": "class",
+                "props": Object {
+                  "captureClick": true,
+                  "captureDoubleClick": true,
+                  "captureDrag": true,
+                  "captureScroll": false,
+                  "children": <MapPin
+                    onClick={[Function]}
+                    size={20}
+                  />,
+                  "className": "",
+                  "draggable": false,
+                  "latitude": 100,
+                  "longitude": 40,
+                  "offsetLeft": 0,
+                  "offsetTop": 0,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "onClick": [Function],
+                    "size": 20,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "1",
+                "nodeType": "class",
+                "props": Object {
+                  "captureClick": true,
+                  "captureDoubleClick": true,
+                  "captureDrag": true,
+                  "captureScroll": false,
+                  "children": <MapPin
+                    onClick={[Function]}
+                    size={20}
+                  />,
+                  "className": "",
+                  "draggable": false,
+                  "latitude": 100,
+                  "longitude": 40,
+                  "offsetLeft": 0,
+                  "offsetTop": 0,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "onClick": [Function],
+                    "size": 20,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              null,
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <NavigationControl
+                    captureClick={true}
+                    captureDoubleClick={true}
+                    captureDrag={true}
+                    captureScroll={false}
+                    className=""
+                    onViewStateChange={[Function]}
+                    onViewportChange={[Function]}
+                    showCompass={true}
+                    showZoom={true}
+                  />,
+                  "className": "nav",
+                  "style": Object {
+                    "left": 0,
+                    "padding": "10px",
+                    "position": "absolute",
+                    "top": 0,
+                  },
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "captureClick": true,
+                    "captureDoubleClick": true,
+                    "captureDrag": true,
+                    "captureScroll": false,
+                    "className": "",
+                    "onViewStateChange": [Function],
+                    "onViewportChange": [Function],
+                    "showCompass": true,
+                    "showZoom": true,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+            ],
+            "type": [Function],
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`Map styles matches snapshot 1`] = `
+Object {
+  "actionButton": Object {
+    "bottom": 20,
+    "left": "auto",
+    "margin": 0,
+    "position": "fixed",
+    "right": 20,
+    "top": "auto",
+    "zIndex": 2000,
+  },
+  "icon": Object {
+    "marginRight": 20,
+  },
+}
+`;

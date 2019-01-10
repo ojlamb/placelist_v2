@@ -1,0 +1,1757 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderView snapshots Scenario 1 matches snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <HeaderView
+    actions={
+      Object {
+        "logOutUser": [MockFunction],
+        "sessionActions": Object {
+          "logOutUser": [Function],
+          "logOutUserSuccess": [Function],
+          "loginUser": [Function],
+          "loginUserSuccess": [Function],
+        },
+      }
+    }
+    classes={Object {}}
+    session={
+      Object {
+        "active": false,
+        "user": Object {},
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <WithStyles(AppBar)
+        position="static"
+      >
+        <WithStyles(Toolbar)>
+          <WithStyles(Typography)
+            color="inherit"
+            variant="h6"
+          >
+            <Link
+              replace={false}
+              to="/"
+            >
+              PlaceList
+            </Link>
+          </WithStyles(Typography)>
+          <div>
+            <div>
+              <Link
+                replace={false}
+                to="/login"
+              >
+                <WithStyles(Button)
+                  color="primary"
+                  variant="outlined"
+                >
+                  Login
+                </WithStyles(Button)>
+              </Link>
+              <Link
+                replace={false}
+                to="/signup"
+              >
+                <WithStyles(Button)>
+                  Sign Up
+                </WithStyles(Button)>
+              </Link>
+            </div>
+          </div>
+        </WithStyles(Toolbar)>
+      </WithStyles(AppBar)>,
+      "className": undefined,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <WithStyles(Toolbar)>
+          <WithStyles(Typography)
+            color="inherit"
+            variant="h6"
+          >
+            <Link
+              replace={false}
+              to="/"
+            >
+              PlaceList
+            </Link>
+          </WithStyles(Typography)>
+          <div>
+            <div>
+              <Link
+                replace={false}
+                to="/login"
+              >
+                <WithStyles(Button)
+                  color="primary"
+                  variant="outlined"
+                >
+                  Login
+                </WithStyles(Button)>
+              </Link>
+              <Link
+                replace={false}
+                to="/signup"
+              >
+                <WithStyles(Button)>
+                  Sign Up
+                </WithStyles(Button)>
+              </Link>
+            </div>
+          </div>
+        </WithStyles(Toolbar)>,
+        "position": "static",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <WithStyles(Typography)
+              color="inherit"
+              variant="h6"
+            >
+              <Link
+                replace={false}
+                to="/"
+              >
+                PlaceList
+              </Link>
+            </WithStyles(Typography)>,
+            <div>
+              <div>
+                <Link
+                  replace={false}
+                  to="/login"
+                >
+                  <WithStyles(Button)
+                    color="primary"
+                    variant="outlined"
+                  >
+                    Login
+                  </WithStyles(Button)>
+                </Link>
+                <Link
+                  replace={false}
+                  to="/signup"
+                >
+                  <WithStyles(Button)>
+                    Sign Up
+                  </WithStyles(Button)>
+                </Link>
+              </div>
+            </div>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <Link
+                replace={false}
+                to="/"
+              >
+                PlaceList
+              </Link>,
+              "className": undefined,
+              "color": "inherit",
+              "variant": "h6",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "PlaceList",
+                "className": undefined,
+                "replace": false,
+                "to": "/",
+              },
+              "ref": null,
+              "rendered": "PlaceList",
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div>
+                <Link
+                  replace={false}
+                  to="/login"
+                >
+                  <WithStyles(Button)
+                    color="primary"
+                    variant="outlined"
+                  >
+                    Login
+                  </WithStyles(Button)>
+                </Link>
+                <Link
+                  replace={false}
+                  to="/signup"
+                >
+                  <WithStyles(Button)>
+                    Sign Up
+                  </WithStyles(Button)>
+                </Link>
+              </div>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <Link
+                    replace={false}
+                    to="/login"
+                  >
+                    <WithStyles(Button)
+                      color="primary"
+                      variant="outlined"
+                    >
+                      Login
+                    </WithStyles(Button)>
+                  </Link>,
+                  <Link
+                    replace={false}
+                    to="/signup"
+                  >
+                    <WithStyles(Button)>
+                      Sign Up
+                    </WithStyles(Button)>
+                  </Link>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <WithStyles(Button)
+                      color="primary"
+                      variant="outlined"
+                    >
+                      Login
+                    </WithStyles(Button)>,
+                    "className": undefined,
+                    "replace": false,
+                    "to": "/login",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Login",
+                      "className": undefined,
+                      "color": "primary",
+                      "variant": "outlined",
+                    },
+                    "ref": null,
+                    "rendered": "Login",
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <WithStyles(Button)>
+                      Sign Up
+                    </WithStyles(Button)>,
+                    "className": undefined,
+                    "replace": false,
+                    "to": "/signup",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Sign Up",
+                      "className": undefined,
+                    },
+                    "ref": null,
+                    "rendered": "Sign Up",
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+            "type": "div",
+          },
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <WithStyles(AppBar)
+          position="static"
+        >
+          <WithStyles(Toolbar)>
+            <WithStyles(Typography)
+              color="inherit"
+              variant="h6"
+            >
+              <Link
+                replace={false}
+                to="/"
+              >
+                PlaceList
+              </Link>
+            </WithStyles(Typography)>
+            <div>
+              <div>
+                <Link
+                  replace={false}
+                  to="/login"
+                >
+                  <WithStyles(Button)
+                    color="primary"
+                    variant="outlined"
+                  >
+                    Login
+                  </WithStyles(Button)>
+                </Link>
+                <Link
+                  replace={false}
+                  to="/signup"
+                >
+                  <WithStyles(Button)>
+                    Sign Up
+                  </WithStyles(Button)>
+                </Link>
+              </div>
+            </div>
+          </WithStyles(Toolbar)>
+        </WithStyles(AppBar)>,
+        "className": undefined,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <WithStyles(Toolbar)>
+            <WithStyles(Typography)
+              color="inherit"
+              variant="h6"
+            >
+              <Link
+                replace={false}
+                to="/"
+              >
+                PlaceList
+              </Link>
+            </WithStyles(Typography)>
+            <div>
+              <div>
+                <Link
+                  replace={false}
+                  to="/login"
+                >
+                  <WithStyles(Button)
+                    color="primary"
+                    variant="outlined"
+                  >
+                    Login
+                  </WithStyles(Button)>
+                </Link>
+                <Link
+                  replace={false}
+                  to="/signup"
+                >
+                  <WithStyles(Button)>
+                    Sign Up
+                  </WithStyles(Button)>
+                </Link>
+              </div>
+            </div>
+          </WithStyles(Toolbar)>,
+          "position": "static",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <WithStyles(Typography)
+                color="inherit"
+                variant="h6"
+              >
+                <Link
+                  replace={false}
+                  to="/"
+                >
+                  PlaceList
+                </Link>
+              </WithStyles(Typography)>,
+              <div>
+                <div>
+                  <Link
+                    replace={false}
+                    to="/login"
+                  >
+                    <WithStyles(Button)
+                      color="primary"
+                      variant="outlined"
+                    >
+                      Login
+                    </WithStyles(Button)>
+                  </Link>
+                  <Link
+                    replace={false}
+                    to="/signup"
+                  >
+                    <WithStyles(Button)>
+                      Sign Up
+                    </WithStyles(Button)>
+                  </Link>
+                </div>
+              </div>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Link
+                  replace={false}
+                  to="/"
+                >
+                  PlaceList
+                </Link>,
+                "className": undefined,
+                "color": "inherit",
+                "variant": "h6",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "PlaceList",
+                  "className": undefined,
+                  "replace": false,
+                  "to": "/",
+                },
+                "ref": null,
+                "rendered": "PlaceList",
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div>
+                  <Link
+                    replace={false}
+                    to="/login"
+                  >
+                    <WithStyles(Button)
+                      color="primary"
+                      variant="outlined"
+                    >
+                      Login
+                    </WithStyles(Button)>
+                  </Link>
+                  <Link
+                    replace={false}
+                    to="/signup"
+                  >
+                    <WithStyles(Button)>
+                      Sign Up
+                    </WithStyles(Button)>
+                  </Link>
+                </div>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <Link
+                      replace={false}
+                      to="/login"
+                    >
+                      <WithStyles(Button)
+                        color="primary"
+                        variant="outlined"
+                      >
+                        Login
+                      </WithStyles(Button)>
+                    </Link>,
+                    <Link
+                      replace={false}
+                      to="/signup"
+                    >
+                      <WithStyles(Button)>
+                        Sign Up
+                      </WithStyles(Button)>
+                    </Link>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <WithStyles(Button)
+                        color="primary"
+                        variant="outlined"
+                      >
+                        Login
+                      </WithStyles(Button)>,
+                      "className": undefined,
+                      "replace": false,
+                      "to": "/login",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "Login",
+                        "className": undefined,
+                        "color": "primary",
+                        "variant": "outlined",
+                      },
+                      "ref": null,
+                      "rendered": "Login",
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <WithStyles(Button)>
+                        Sign Up
+                      </WithStyles(Button)>,
+                      "className": undefined,
+                      "replace": false,
+                      "to": "/signup",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "Sign Up",
+                        "className": undefined,
+                      },
+                      "ref": null,
+                      "rendered": "Sign Up",
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                ],
+                "type": "div",
+              },
+              "type": "div",
+            },
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`HeaderView snapshots Scenario 2 matches snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <HeaderView
+    actions={
+      Object {
+        "logOutUser": [MockFunction],
+        "sessionActions": Object {
+          "logOutUser": [Function],
+          "logOutUserSuccess": [Function],
+          "loginUser": [Function],
+          "loginUserSuccess": [Function],
+        },
+      }
+    }
+    classes={Object {}}
+    session={
+      Object {
+        "active": true,
+        "user": Object {
+          "jwt": "FOO",
+        },
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <WithStyles(AppBar)
+        position="static"
+      >
+        <WithStyles(Toolbar)>
+          <WithStyles(Typography)
+            color="inherit"
+            variant="h6"
+          >
+            <Link
+              replace={false}
+              to="/"
+            >
+              PlaceList
+            </Link>
+          </WithStyles(Typography)>
+          <div>
+            <Link
+              replace={false}
+              to="/map"
+            >
+              <WithStyles(Button)>
+                Map
+              </WithStyles(Button)>
+            </Link>
+            <Link
+              replace={false}
+              to="/places"
+            >
+              <WithStyles(Button)
+                to="places"
+              >
+                List
+              </WithStyles(Button)>
+            </Link>
+            <WithStyles(IconButton)
+              aria-haspopup="true"
+              aria-owns={null}
+              color="inherit"
+              onClick={[Function]}
+            >
+              <pure(AccountCircleIcon) />
+            </WithStyles(IconButton)>
+            <WithStyles(Menu)
+              anchorEl={null}
+              anchorOrigin={
+                Object {
+                  "horizontal": "right",
+                  "vertical": "top",
+                }
+              }
+              id="menu-appbar"
+              onClose={[Function]}
+              open={false}
+              transformOrigin={
+                Object {
+                  "horizontal": "right",
+                  "vertical": "top",
+                }
+              }
+            >
+              <WithStyles(MenuItem)
+                onClick={[Function]}
+              >
+                Profile
+              </WithStyles(MenuItem)>
+              <WithStyles(MenuItem)
+                onClick={[Function]}
+              >
+                My account
+              </WithStyles(MenuItem)>
+              <WithStyles(MenuItem)
+                onClick={[Function]}
+                to="/places"
+              >
+                Log Out
+              </WithStyles(MenuItem)>
+            </WithStyles(Menu)>
+          </div>
+        </WithStyles(Toolbar)>
+      </WithStyles(AppBar)>,
+      "className": undefined,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <WithStyles(Toolbar)>
+          <WithStyles(Typography)
+            color="inherit"
+            variant="h6"
+          >
+            <Link
+              replace={false}
+              to="/"
+            >
+              PlaceList
+            </Link>
+          </WithStyles(Typography)>
+          <div>
+            <Link
+              replace={false}
+              to="/map"
+            >
+              <WithStyles(Button)>
+                Map
+              </WithStyles(Button)>
+            </Link>
+            <Link
+              replace={false}
+              to="/places"
+            >
+              <WithStyles(Button)
+                to="places"
+              >
+                List
+              </WithStyles(Button)>
+            </Link>
+            <WithStyles(IconButton)
+              aria-haspopup="true"
+              aria-owns={null}
+              color="inherit"
+              onClick={[Function]}
+            >
+              <pure(AccountCircleIcon) />
+            </WithStyles(IconButton)>
+            <WithStyles(Menu)
+              anchorEl={null}
+              anchorOrigin={
+                Object {
+                  "horizontal": "right",
+                  "vertical": "top",
+                }
+              }
+              id="menu-appbar"
+              onClose={[Function]}
+              open={false}
+              transformOrigin={
+                Object {
+                  "horizontal": "right",
+                  "vertical": "top",
+                }
+              }
+            >
+              <WithStyles(MenuItem)
+                onClick={[Function]}
+              >
+                Profile
+              </WithStyles(MenuItem)>
+              <WithStyles(MenuItem)
+                onClick={[Function]}
+              >
+                My account
+              </WithStyles(MenuItem)>
+              <WithStyles(MenuItem)
+                onClick={[Function]}
+                to="/places"
+              >
+                Log Out
+              </WithStyles(MenuItem)>
+            </WithStyles(Menu)>
+          </div>
+        </WithStyles(Toolbar)>,
+        "position": "static",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <WithStyles(Typography)
+              color="inherit"
+              variant="h6"
+            >
+              <Link
+                replace={false}
+                to="/"
+              >
+                PlaceList
+              </Link>
+            </WithStyles(Typography)>,
+            <div>
+              <Link
+                replace={false}
+                to="/map"
+              >
+                <WithStyles(Button)>
+                  Map
+                </WithStyles(Button)>
+              </Link>
+              <Link
+                replace={false}
+                to="/places"
+              >
+                <WithStyles(Button)
+                  to="places"
+                >
+                  List
+                </WithStyles(Button)>
+              </Link>
+              <WithStyles(IconButton)
+                aria-haspopup="true"
+                aria-owns={null}
+                color="inherit"
+                onClick={[Function]}
+              >
+                <pure(AccountCircleIcon) />
+              </WithStyles(IconButton)>
+              <WithStyles(Menu)
+                anchorEl={null}
+                anchorOrigin={
+                  Object {
+                    "horizontal": "right",
+                    "vertical": "top",
+                  }
+                }
+                id="menu-appbar"
+                onClose={[Function]}
+                open={false}
+                transformOrigin={
+                  Object {
+                    "horizontal": "right",
+                    "vertical": "top",
+                  }
+                }
+              >
+                <WithStyles(MenuItem)
+                  onClick={[Function]}
+                >
+                  Profile
+                </WithStyles(MenuItem)>
+                <WithStyles(MenuItem)
+                  onClick={[Function]}
+                >
+                  My account
+                </WithStyles(MenuItem)>
+                <WithStyles(MenuItem)
+                  onClick={[Function]}
+                  to="/places"
+                >
+                  Log Out
+                </WithStyles(MenuItem)>
+              </WithStyles(Menu)>
+            </div>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <Link
+                replace={false}
+                to="/"
+              >
+                PlaceList
+              </Link>,
+              "className": undefined,
+              "color": "inherit",
+              "variant": "h6",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "PlaceList",
+                "className": undefined,
+                "replace": false,
+                "to": "/",
+              },
+              "ref": null,
+              "rendered": "PlaceList",
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <Link
+                  replace={false}
+                  to="/map"
+                >
+                  <WithStyles(Button)>
+                    Map
+                  </WithStyles(Button)>
+                </Link>,
+                <Link
+                  replace={false}
+                  to="/places"
+                >
+                  <WithStyles(Button)
+                    to="places"
+                  >
+                    List
+                  </WithStyles(Button)>
+                </Link>,
+                <WithStyles(IconButton)
+                  aria-haspopup="true"
+                  aria-owns={null}
+                  color="inherit"
+                  onClick={[Function]}
+                >
+                  <pure(AccountCircleIcon) />
+                </WithStyles(IconButton)>,
+                <WithStyles(Menu)
+                  anchorEl={null}
+                  anchorOrigin={
+                    Object {
+                      "horizontal": "right",
+                      "vertical": "top",
+                    }
+                  }
+                  id="menu-appbar"
+                  onClose={[Function]}
+                  open={false}
+                  transformOrigin={
+                    Object {
+                      "horizontal": "right",
+                      "vertical": "top",
+                    }
+                  }
+                >
+                  <WithStyles(MenuItem)
+                    onClick={[Function]}
+                  >
+                    Profile
+                  </WithStyles(MenuItem)>
+                  <WithStyles(MenuItem)
+                    onClick={[Function]}
+                  >
+                    My account
+                  </WithStyles(MenuItem)>
+                  <WithStyles(MenuItem)
+                    onClick={[Function]}
+                    to="/places"
+                  >
+                    Log Out
+                  </WithStyles(MenuItem)>
+                </WithStyles(Menu)>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <WithStyles(Button)>
+                    Map
+                  </WithStyles(Button)>,
+                  "className": undefined,
+                  "replace": false,
+                  "to": "/map",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Map",
+                    "className": undefined,
+                  },
+                  "ref": null,
+                  "rendered": "Map",
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <WithStyles(Button)
+                    to="places"
+                  >
+                    List
+                  </WithStyles(Button)>,
+                  "className": undefined,
+                  "replace": false,
+                  "to": "/places",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "List",
+                    "className": undefined,
+                    "to": "places",
+                  },
+                  "ref": null,
+                  "rendered": "List",
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "aria-haspopup": "true",
+                  "aria-owns": null,
+                  "children": <pure(AccountCircleIcon) />,
+                  "color": "inherit",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "anchorEl": null,
+                  "anchorOrigin": Object {
+                    "horizontal": "right",
+                    "vertical": "top",
+                  },
+                  "children": Array [
+                    <WithStyles(MenuItem)
+                      onClick={[Function]}
+                    >
+                      Profile
+                    </WithStyles(MenuItem)>,
+                    <WithStyles(MenuItem)
+                      onClick={[Function]}
+                    >
+                      My account
+                    </WithStyles(MenuItem)>,
+                    <WithStyles(MenuItem)
+                      onClick={[Function]}
+                      to="/places"
+                    >
+                      Log Out
+                    </WithStyles(MenuItem)>,
+                  ],
+                  "id": "menu-appbar",
+                  "onClose": [Function],
+                  "open": false,
+                  "transformOrigin": Object {
+                    "horizontal": "right",
+                    "vertical": "top",
+                  },
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Profile",
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "rendered": "Profile",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "My account",
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "rendered": "My account",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Log Out",
+                      "onClick": [Function],
+                      "to": "/places",
+                    },
+                    "ref": null,
+                    "rendered": "Log Out",
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <WithStyles(AppBar)
+          position="static"
+        >
+          <WithStyles(Toolbar)>
+            <WithStyles(Typography)
+              color="inherit"
+              variant="h6"
+            >
+              <Link
+                replace={false}
+                to="/"
+              >
+                PlaceList
+              </Link>
+            </WithStyles(Typography)>
+            <div>
+              <Link
+                replace={false}
+                to="/map"
+              >
+                <WithStyles(Button)>
+                  Map
+                </WithStyles(Button)>
+              </Link>
+              <Link
+                replace={false}
+                to="/places"
+              >
+                <WithStyles(Button)
+                  to="places"
+                >
+                  List
+                </WithStyles(Button)>
+              </Link>
+              <WithStyles(IconButton)
+                aria-haspopup="true"
+                aria-owns={null}
+                color="inherit"
+                onClick={[Function]}
+              >
+                <pure(AccountCircleIcon) />
+              </WithStyles(IconButton)>
+              <WithStyles(Menu)
+                anchorEl={null}
+                anchorOrigin={
+                  Object {
+                    "horizontal": "right",
+                    "vertical": "top",
+                  }
+                }
+                id="menu-appbar"
+                onClose={[Function]}
+                open={false}
+                transformOrigin={
+                  Object {
+                    "horizontal": "right",
+                    "vertical": "top",
+                  }
+                }
+              >
+                <WithStyles(MenuItem)
+                  onClick={[Function]}
+                >
+                  Profile
+                </WithStyles(MenuItem)>
+                <WithStyles(MenuItem)
+                  onClick={[Function]}
+                >
+                  My account
+                </WithStyles(MenuItem)>
+                <WithStyles(MenuItem)
+                  onClick={[Function]}
+                  to="/places"
+                >
+                  Log Out
+                </WithStyles(MenuItem)>
+              </WithStyles(Menu)>
+            </div>
+          </WithStyles(Toolbar)>
+        </WithStyles(AppBar)>,
+        "className": undefined,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <WithStyles(Toolbar)>
+            <WithStyles(Typography)
+              color="inherit"
+              variant="h6"
+            >
+              <Link
+                replace={false}
+                to="/"
+              >
+                PlaceList
+              </Link>
+            </WithStyles(Typography)>
+            <div>
+              <Link
+                replace={false}
+                to="/map"
+              >
+                <WithStyles(Button)>
+                  Map
+                </WithStyles(Button)>
+              </Link>
+              <Link
+                replace={false}
+                to="/places"
+              >
+                <WithStyles(Button)
+                  to="places"
+                >
+                  List
+                </WithStyles(Button)>
+              </Link>
+              <WithStyles(IconButton)
+                aria-haspopup="true"
+                aria-owns={null}
+                color="inherit"
+                onClick={[Function]}
+              >
+                <pure(AccountCircleIcon) />
+              </WithStyles(IconButton)>
+              <WithStyles(Menu)
+                anchorEl={null}
+                anchorOrigin={
+                  Object {
+                    "horizontal": "right",
+                    "vertical": "top",
+                  }
+                }
+                id="menu-appbar"
+                onClose={[Function]}
+                open={false}
+                transformOrigin={
+                  Object {
+                    "horizontal": "right",
+                    "vertical": "top",
+                  }
+                }
+              >
+                <WithStyles(MenuItem)
+                  onClick={[Function]}
+                >
+                  Profile
+                </WithStyles(MenuItem)>
+                <WithStyles(MenuItem)
+                  onClick={[Function]}
+                >
+                  My account
+                </WithStyles(MenuItem)>
+                <WithStyles(MenuItem)
+                  onClick={[Function]}
+                  to="/places"
+                >
+                  Log Out
+                </WithStyles(MenuItem)>
+              </WithStyles(Menu)>
+            </div>
+          </WithStyles(Toolbar)>,
+          "position": "static",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <WithStyles(Typography)
+                color="inherit"
+                variant="h6"
+              >
+                <Link
+                  replace={false}
+                  to="/"
+                >
+                  PlaceList
+                </Link>
+              </WithStyles(Typography)>,
+              <div>
+                <Link
+                  replace={false}
+                  to="/map"
+                >
+                  <WithStyles(Button)>
+                    Map
+                  </WithStyles(Button)>
+                </Link>
+                <Link
+                  replace={false}
+                  to="/places"
+                >
+                  <WithStyles(Button)
+                    to="places"
+                  >
+                    List
+                  </WithStyles(Button)>
+                </Link>
+                <WithStyles(IconButton)
+                  aria-haspopup="true"
+                  aria-owns={null}
+                  color="inherit"
+                  onClick={[Function]}
+                >
+                  <pure(AccountCircleIcon) />
+                </WithStyles(IconButton)>
+                <WithStyles(Menu)
+                  anchorEl={null}
+                  anchorOrigin={
+                    Object {
+                      "horizontal": "right",
+                      "vertical": "top",
+                    }
+                  }
+                  id="menu-appbar"
+                  onClose={[Function]}
+                  open={false}
+                  transformOrigin={
+                    Object {
+                      "horizontal": "right",
+                      "vertical": "top",
+                    }
+                  }
+                >
+                  <WithStyles(MenuItem)
+                    onClick={[Function]}
+                  >
+                    Profile
+                  </WithStyles(MenuItem)>
+                  <WithStyles(MenuItem)
+                    onClick={[Function]}
+                  >
+                    My account
+                  </WithStyles(MenuItem)>
+                  <WithStyles(MenuItem)
+                    onClick={[Function]}
+                    to="/places"
+                  >
+                    Log Out
+                  </WithStyles(MenuItem)>
+                </WithStyles(Menu)>
+              </div>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Link
+                  replace={false}
+                  to="/"
+                >
+                  PlaceList
+                </Link>,
+                "className": undefined,
+                "color": "inherit",
+                "variant": "h6",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "PlaceList",
+                  "className": undefined,
+                  "replace": false,
+                  "to": "/",
+                },
+                "ref": null,
+                "rendered": "PlaceList",
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <Link
+                    replace={false}
+                    to="/map"
+                  >
+                    <WithStyles(Button)>
+                      Map
+                    </WithStyles(Button)>
+                  </Link>,
+                  <Link
+                    replace={false}
+                    to="/places"
+                  >
+                    <WithStyles(Button)
+                      to="places"
+                    >
+                      List
+                    </WithStyles(Button)>
+                  </Link>,
+                  <WithStyles(IconButton)
+                    aria-haspopup="true"
+                    aria-owns={null}
+                    color="inherit"
+                    onClick={[Function]}
+                  >
+                    <pure(AccountCircleIcon) />
+                  </WithStyles(IconButton)>,
+                  <WithStyles(Menu)
+                    anchorEl={null}
+                    anchorOrigin={
+                      Object {
+                        "horizontal": "right",
+                        "vertical": "top",
+                      }
+                    }
+                    id="menu-appbar"
+                    onClose={[Function]}
+                    open={false}
+                    transformOrigin={
+                      Object {
+                        "horizontal": "right",
+                        "vertical": "top",
+                      }
+                    }
+                  >
+                    <WithStyles(MenuItem)
+                      onClick={[Function]}
+                    >
+                      Profile
+                    </WithStyles(MenuItem)>
+                    <WithStyles(MenuItem)
+                      onClick={[Function]}
+                    >
+                      My account
+                    </WithStyles(MenuItem)>
+                    <WithStyles(MenuItem)
+                      onClick={[Function]}
+                      to="/places"
+                    >
+                      Log Out
+                    </WithStyles(MenuItem)>
+                  </WithStyles(Menu)>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <WithStyles(Button)>
+                      Map
+                    </WithStyles(Button)>,
+                    "className": undefined,
+                    "replace": false,
+                    "to": "/map",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Map",
+                      "className": undefined,
+                    },
+                    "ref": null,
+                    "rendered": "Map",
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <WithStyles(Button)
+                      to="places"
+                    >
+                      List
+                    </WithStyles(Button)>,
+                    "className": undefined,
+                    "replace": false,
+                    "to": "/places",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "List",
+                      "className": undefined,
+                      "to": "places",
+                    },
+                    "ref": null,
+                    "rendered": "List",
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "aria-haspopup": "true",
+                    "aria-owns": null,
+                    "children": <pure(AccountCircleIcon) />,
+                    "color": "inherit",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "anchorEl": null,
+                    "anchorOrigin": Object {
+                      "horizontal": "right",
+                      "vertical": "top",
+                    },
+                    "children": Array [
+                      <WithStyles(MenuItem)
+                        onClick={[Function]}
+                      >
+                        Profile
+                      </WithStyles(MenuItem)>,
+                      <WithStyles(MenuItem)
+                        onClick={[Function]}
+                      >
+                        My account
+                      </WithStyles(MenuItem)>,
+                      <WithStyles(MenuItem)
+                        onClick={[Function]}
+                        to="/places"
+                      >
+                        Log Out
+                      </WithStyles(MenuItem)>,
+                    ],
+                    "id": "menu-appbar",
+                    "onClose": [Function],
+                    "open": false,
+                    "transformOrigin": Object {
+                      "horizontal": "right",
+                      "vertical": "top",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "Profile",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "rendered": "Profile",
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "My account",
+                        "onClick": [Function],
+                      },
+                      "ref": null,
+                      "rendered": "My account",
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "Log Out",
+                        "onClick": [Function],
+                        "to": "/places",
+                      },
+                      "ref": null,
+                      "rendered": "Log Out",
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

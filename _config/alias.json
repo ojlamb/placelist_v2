@@ -1,0 +1,14 @@
+{
+  "actions": "app/common/actions/",
+  "common": "app/common/",
+  "components": "app/components/",
+  "common": "app/common/",
+  "dashboards": "app/dashboards/",
+  "icons": "app/icons/",
+  "json": "app/json/",
+  "managers": "app/managers/",
+  "pages": "app/pages/",
+  "styles": "app/styles",
+  "test": "test/",
+  "widgets": "app/widgets/"
+}

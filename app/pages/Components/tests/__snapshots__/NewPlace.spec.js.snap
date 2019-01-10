@@ -1,0 +1,2477 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`newPlace snapshots Scenario 1 matches snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <NewPlace
+    classes={Object {}}
+    createPlace={[MockFunction]}
+    formOpen={true}
+    handleClose={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <WithStyles(Dialog)
+          aria-labelledby="form-dialog-title"
+          onClose={[Function]}
+          open={true}
+        >
+          <WithStyles(DialogTitle)
+            id="form-dialog-title"
+          >
+            Add Place
+          </WithStyles(DialogTitle)>
+          <WithStyles(DialogContent)
+            style={
+              Object {
+                "paddingLeft": "25px",
+                "paddingRight": "25px",
+              }
+            }
+          >
+            <WithStyles(DialogContentText)
+              style={
+                Object {
+                  "marginBottom": "10px",
+                }
+              }
+            >
+              Please fill out the place form to add your spot to the list!
+            </WithStyles(DialogContentText)>
+            <MUIPlacesAutocomplete
+              createAutocompleteRequest={[Function]}
+              onSuggestionSelected={[Function]}
+              renderTarget={[Function]}
+              style={
+                Object {
+                  "marginTop": 25,
+                }
+              }
+              textFieldProps={
+                Object {
+                  "autoFocus": false,
+                  "fullWidth": true,
+                  "placeholder": "Search for a place",
+                }
+              }
+            />
+            <Validation
+              closures={Object {}}
+              defaultValueProp="defaultValue"
+              errorStyle={Object {}}
+              group="myGroup1"
+              onChangeCallback="onChange"
+              validators={
+                Array [
+                  Object {
+                    "validator": [Function],
+                  },
+                ]
+              }
+              valueProp="value"
+            >
+              <TextField
+                error={true}
+                fullWidth={true}
+                helperText="Name cannot be blank"
+                id="name"
+                label="Name"
+                margin="dense"
+                onChange={[Function]}
+                required={false}
+                select={false}
+                type="name"
+                value=""
+                variant="standard"
+              />
+            </Validation>
+            <Validation
+              closures={Object {}}
+              defaultValueProp="defaultValue"
+              errorStyle={Object {}}
+              group="myGroup1"
+              onChangeCallback="onChange"
+              validators={
+                Array [
+                  Object {
+                    "validator": [Function],
+                  },
+                ]
+              }
+              valueProp="value"
+            >
+              <TextField
+                error={true}
+                fullWidth={true}
+                helperText="Address cannot be blank"
+                id="name"
+                label="Address"
+                margin="dense"
+                onChange={[Function]}
+                required={false}
+                select={false}
+                type="address"
+                value=""
+                variant="standard"
+              />
+            </Validation>
+            <WithStyles(WithFormControlContext(Select))
+              displayEmpty={true}
+              fullWidth={true}
+              id="name"
+              label="Category"
+              name="category"
+              onChange={[Function]}
+              style={
+                Object {
+                  "marginTop": "13px",
+                }
+              }
+              value=""
+            >
+              <WithStyles(MenuItem)
+                disabled={true}
+                value=""
+              >
+                Category
+              </WithStyles(MenuItem)>
+              <WithStyles(MenuItem)
+                value="drinks"
+              >
+                Drinks
+              </WithStyles(MenuItem)>
+              <WithStyles(MenuItem)
+                value="dinner"
+              >
+                Dinner
+              </WithStyles(MenuItem)>
+              <WithStyles(MenuItem)
+                value="burgers"
+              >
+                Burgers
+              </WithStyles(MenuItem)>
+              <WithStyles(MenuItem)
+                value="tacos"
+              >
+                Tacos
+              </WithStyles(MenuItem)>
+              <WithStyles(MenuItem)
+                value="sushi"
+              >
+                Sushi
+              </WithStyles(MenuItem)>
+              <WithStyles(MenuItem)
+                value="brewery"
+              >
+                Brewery
+              </WithStyles(MenuItem)>
+              <WithStyles(MenuItem)
+                value="club"
+              >
+                Club
+              </WithStyles(MenuItem)>
+              <WithStyles(MenuItem)
+                value="coffee"
+              >
+                Coffee
+              </WithStyles(MenuItem)>
+              <WithStyles(MenuItem)
+                value="lunch"
+              >
+                Lunch
+              </WithStyles(MenuItem)>
+              <WithStyles(MenuItem)
+                value="brunch"
+              >
+                Brunch
+              </WithStyles(MenuItem)>
+              <WithStyles(MenuItem)
+                value="other"
+              >
+                Other
+              </WithStyles(MenuItem)>
+            </WithStyles(WithFormControlContext(Select))>
+            <TextField
+              fullWidth={true}
+              id="name"
+              label="Description"
+              margin="dense"
+              onChange={[Function]}
+              required={false}
+              select={false}
+              type="description"
+              value=""
+              variant="standard"
+            />
+          </WithStyles(DialogContent)>
+          <WithStyles(DialogActions)>
+            <WithStyles(Button)
+              color="primary"
+              onClick={[Function]}
+            >
+              Cancel
+            </WithStyles(Button)>
+            <WithStyles(Button)
+              color="primary"
+              onClick={[Function]}
+            >
+              Submit
+            </WithStyles(Button)>
+          </WithStyles(DialogActions)>
+        </WithStyles(Dialog)>,
+        <WithStyles(Dialog)
+          aria-describedby="alert-dialog-description"
+          aria-labelledby="alert-dialog-title"
+          open={false}
+        >
+          <WithStyles(DialogTitle)
+            id="alert-dialog-title"
+          >
+            Form Errors
+          </WithStyles(DialogTitle)>
+          <WithStyles(DialogContent)>
+            <WithStyles(DialogContentText)
+              id="alert-dialog-description"
+            >
+              Please fill out all required fields
+            </WithStyles(DialogContentText)>
+          </WithStyles(DialogContent)>
+          <WithStyles(DialogActions)>
+            <WithStyles(Button)
+              color="primary"
+              onClick={[Function]}
+            >
+              Close
+            </WithStyles(Button)>
+          </WithStyles(DialogActions)>
+        </WithStyles(Dialog)>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "aria-labelledby": "form-dialog-title",
+          "children": Array [
+            <WithStyles(DialogTitle)
+              id="form-dialog-title"
+            >
+              Add Place
+            </WithStyles(DialogTitle)>,
+            <WithStyles(DialogContent)
+              style={
+                Object {
+                  "paddingLeft": "25px",
+                  "paddingRight": "25px",
+                }
+              }
+            >
+              <WithStyles(DialogContentText)
+                style={
+                  Object {
+                    "marginBottom": "10px",
+                  }
+                }
+              >
+                Please fill out the place form to add your spot to the list!
+              </WithStyles(DialogContentText)>
+              <MUIPlacesAutocomplete
+                createAutocompleteRequest={[Function]}
+                onSuggestionSelected={[Function]}
+                renderTarget={[Function]}
+                style={
+                  Object {
+                    "marginTop": 25,
+                  }
+                }
+                textFieldProps={
+                  Object {
+                    "autoFocus": false,
+                    "fullWidth": true,
+                    "placeholder": "Search for a place",
+                  }
+                }
+              />
+              <Validation
+                closures={Object {}}
+                defaultValueProp="defaultValue"
+                errorStyle={Object {}}
+                group="myGroup1"
+                onChangeCallback="onChange"
+                validators={
+                  Array [
+                    Object {
+                      "validator": [Function],
+                    },
+                  ]
+                }
+                valueProp="value"
+              >
+                <TextField
+                  error={true}
+                  fullWidth={true}
+                  helperText="Name cannot be blank"
+                  id="name"
+                  label="Name"
+                  margin="dense"
+                  onChange={[Function]}
+                  required={false}
+                  select={false}
+                  type="name"
+                  value=""
+                  variant="standard"
+                />
+              </Validation>
+              <Validation
+                closures={Object {}}
+                defaultValueProp="defaultValue"
+                errorStyle={Object {}}
+                group="myGroup1"
+                onChangeCallback="onChange"
+                validators={
+                  Array [
+                    Object {
+                      "validator": [Function],
+                    },
+                  ]
+                }
+                valueProp="value"
+              >
+                <TextField
+                  error={true}
+                  fullWidth={true}
+                  helperText="Address cannot be blank"
+                  id="name"
+                  label="Address"
+                  margin="dense"
+                  onChange={[Function]}
+                  required={false}
+                  select={false}
+                  type="address"
+                  value=""
+                  variant="standard"
+                />
+              </Validation>
+              <WithStyles(WithFormControlContext(Select))
+                displayEmpty={true}
+                fullWidth={true}
+                id="name"
+                label="Category"
+                name="category"
+                onChange={[Function]}
+                style={
+                  Object {
+                    "marginTop": "13px",
+                  }
+                }
+                value=""
+              >
+                <WithStyles(MenuItem)
+                  disabled={true}
+                  value=""
+                >
+                  Category
+                </WithStyles(MenuItem)>
+                <WithStyles(MenuItem)
+                  value="drinks"
+                >
+                  Drinks
+                </WithStyles(MenuItem)>
+                <WithStyles(MenuItem)
+                  value="dinner"
+                >
+                  Dinner
+                </WithStyles(MenuItem)>
+                <WithStyles(MenuItem)
+                  value="burgers"
+                >
+                  Burgers
+                </WithStyles(MenuItem)>
+                <WithStyles(MenuItem)
+                  value="tacos"
+                >
+                  Tacos
+                </WithStyles(MenuItem)>
+                <WithStyles(MenuItem)
+                  value="sushi"
+                >
+                  Sushi
+                </WithStyles(MenuItem)>
+                <WithStyles(MenuItem)
+                  value="brewery"
+                >
+                  Brewery
+                </WithStyles(MenuItem)>
+                <WithStyles(MenuItem)
+                  value="club"
+                >
+                  Club
+                </WithStyles(MenuItem)>
+                <WithStyles(MenuItem)
+                  value="coffee"
+                >
+                  Coffee
+                </WithStyles(MenuItem)>
+                <WithStyles(MenuItem)
+                  value="lunch"
+                >
+                  Lunch
+                </WithStyles(MenuItem)>
+                <WithStyles(MenuItem)
+                  value="brunch"
+                >
+                  Brunch
+                </WithStyles(MenuItem)>
+                <WithStyles(MenuItem)
+                  value="other"
+                >
+                  Other
+                </WithStyles(MenuItem)>
+              </WithStyles(WithFormControlContext(Select))>
+              <TextField
+                fullWidth={true}
+                id="name"
+                label="Description"
+                margin="dense"
+                onChange={[Function]}
+                required={false}
+                select={false}
+                type="description"
+                value=""
+                variant="standard"
+              />
+            </WithStyles(DialogContent)>,
+            <WithStyles(DialogActions)>
+              <WithStyles(Button)
+                color="primary"
+                onClick={[Function]}
+              >
+                Cancel
+              </WithStyles(Button)>
+              <WithStyles(Button)
+                color="primary"
+                onClick={[Function]}
+              >
+                Submit
+              </WithStyles(Button)>
+            </WithStyles(DialogActions)>,
+          ],
+          "onClose": [Function],
+          "open": true,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Add Place",
+              "id": "form-dialog-title",
+            },
+            "ref": null,
+            "rendered": "Add Place",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <WithStyles(DialogContentText)
+                  style={
+                    Object {
+                      "marginBottom": "10px",
+                    }
+                  }
+                >
+                  Please fill out the place form to add your spot to the list!
+                </WithStyles(DialogContentText)>,
+                <MUIPlacesAutocomplete
+                  createAutocompleteRequest={[Function]}
+                  onSuggestionSelected={[Function]}
+                  renderTarget={[Function]}
+                  style={
+                    Object {
+                      "marginTop": 25,
+                    }
+                  }
+                  textFieldProps={
+                    Object {
+                      "autoFocus": false,
+                      "fullWidth": true,
+                      "placeholder": "Search for a place",
+                    }
+                  }
+                />,
+                <Validation
+                  closures={Object {}}
+                  defaultValueProp="defaultValue"
+                  errorStyle={Object {}}
+                  group="myGroup1"
+                  onChangeCallback="onChange"
+                  validators={
+                    Array [
+                      Object {
+                        "validator": [Function],
+                      },
+                    ]
+                  }
+                  valueProp="value"
+                >
+                  <TextField
+                    error={true}
+                    fullWidth={true}
+                    helperText="Name cannot be blank"
+                    id="name"
+                    label="Name"
+                    margin="dense"
+                    onChange={[Function]}
+                    required={false}
+                    select={false}
+                    type="name"
+                    value=""
+                    variant="standard"
+                  />
+                </Validation>,
+                <Validation
+                  closures={Object {}}
+                  defaultValueProp="defaultValue"
+                  errorStyle={Object {}}
+                  group="myGroup1"
+                  onChangeCallback="onChange"
+                  validators={
+                    Array [
+                      Object {
+                        "validator": [Function],
+                      },
+                    ]
+                  }
+                  valueProp="value"
+                >
+                  <TextField
+                    error={true}
+                    fullWidth={true}
+                    helperText="Address cannot be blank"
+                    id="name"
+                    label="Address"
+                    margin="dense"
+                    onChange={[Function]}
+                    required={false}
+                    select={false}
+                    type="address"
+                    value=""
+                    variant="standard"
+                  />
+                </Validation>,
+                <WithStyles(WithFormControlContext(Select))
+                  displayEmpty={true}
+                  fullWidth={true}
+                  id="name"
+                  label="Category"
+                  name="category"
+                  onChange={[Function]}
+                  style={
+                    Object {
+                      "marginTop": "13px",
+                    }
+                  }
+                  value=""
+                >
+                  <WithStyles(MenuItem)
+                    disabled={true}
+                    value=""
+                  >
+                    Category
+                  </WithStyles(MenuItem)>
+                  <WithStyles(MenuItem)
+                    value="drinks"
+                  >
+                    Drinks
+                  </WithStyles(MenuItem)>
+                  <WithStyles(MenuItem)
+                    value="dinner"
+                  >
+                    Dinner
+                  </WithStyles(MenuItem)>
+                  <WithStyles(MenuItem)
+                    value="burgers"
+                  >
+                    Burgers
+                  </WithStyles(MenuItem)>
+                  <WithStyles(MenuItem)
+                    value="tacos"
+                  >
+                    Tacos
+                  </WithStyles(MenuItem)>
+                  <WithStyles(MenuItem)
+                    value="sushi"
+                  >
+                    Sushi
+                  </WithStyles(MenuItem)>
+                  <WithStyles(MenuItem)
+                    value="brewery"
+                  >
+                    Brewery
+                  </WithStyles(MenuItem)>
+                  <WithStyles(MenuItem)
+                    value="club"
+                  >
+                    Club
+                  </WithStyles(MenuItem)>
+                  <WithStyles(MenuItem)
+                    value="coffee"
+                  >
+                    Coffee
+                  </WithStyles(MenuItem)>
+                  <WithStyles(MenuItem)
+                    value="lunch"
+                  >
+                    Lunch
+                  </WithStyles(MenuItem)>
+                  <WithStyles(MenuItem)
+                    value="brunch"
+                  >
+                    Brunch
+                  </WithStyles(MenuItem)>
+                  <WithStyles(MenuItem)
+                    value="other"
+                  >
+                    Other
+                  </WithStyles(MenuItem)>
+                </WithStyles(WithFormControlContext(Select))>,
+                <TextField
+                  fullWidth={true}
+                  id="name"
+                  label="Description"
+                  margin="dense"
+                  onChange={[Function]}
+                  required={false}
+                  select={false}
+                  type="description"
+                  value=""
+                  variant="standard"
+                />,
+              ],
+              "style": Object {
+                "paddingLeft": "25px",
+                "paddingRight": "25px",
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "Please fill out the place form to add your spot to the list!",
+                  "style": Object {
+                    "marginBottom": "10px",
+                  },
+                },
+                "ref": null,
+                "rendered": "Please fill out the place form to add your spot to the list!",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "createAutocompleteRequest": [Function],
+                  "onSuggestionSelected": [Function],
+                  "renderTarget": [Function],
+                  "style": Object {
+                    "marginTop": 25,
+                  },
+                  "textFieldProps": Object {
+                    "autoFocus": false,
+                    "fullWidth": true,
+                    "placeholder": "Search for a place",
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <TextField
+                    error={true}
+                    fullWidth={true}
+                    helperText="Name cannot be blank"
+                    id="name"
+                    label="Name"
+                    margin="dense"
+                    onChange={[Function]}
+                    required={false}
+                    select={false}
+                    type="name"
+                    value=""
+                    variant="standard"
+                  />,
+                  "closures": Object {},
+                  "defaultValueProp": "defaultValue",
+                  "errorStyle": Object {},
+                  "group": "myGroup1",
+                  "onChangeCallback": "onChange",
+                  "validators": Array [
+                    Object {
+                      "validator": [Function],
+                    },
+                  ],
+                  "valueProp": "value",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "error": true,
+                    "fullWidth": true,
+                    "helperText": "Name cannot be blank",
+                    "id": "name",
+                    "label": "Name",
+                    "margin": "dense",
+                    "onChange": [Function],
+                    "required": false,
+                    "select": false,
+                    "type": "name",
+                    "value": "",
+                    "variant": "standard",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <TextField
+                    error={true}
+                    fullWidth={true}
+                    helperText="Address cannot be blank"
+                    id="name"
+                    label="Address"
+                    margin="dense"
+                    onChange={[Function]}
+                    required={false}
+                    select={false}
+                    type="address"
+                    value=""
+                    variant="standard"
+                  />,
+                  "closures": Object {},
+                  "defaultValueProp": "defaultValue",
+                  "errorStyle": Object {},
+                  "group": "myGroup1",
+                  "onChangeCallback": "onChange",
+                  "validators": Array [
+                    Object {
+                      "validator": [Function],
+                    },
+                  ],
+                  "valueProp": "value",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "error": true,
+                    "fullWidth": true,
+                    "helperText": "Address cannot be blank",
+                    "id": "name",
+                    "label": "Address",
+                    "margin": "dense",
+                    "onChange": [Function],
+                    "required": false,
+                    "select": false,
+                    "type": "address",
+                    "value": "",
+                    "variant": "standard",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <WithStyles(MenuItem)
+                      disabled={true}
+                      value=""
+                    >
+                      Category
+                    </WithStyles(MenuItem)>,
+                    <WithStyles(MenuItem)
+                      value="drinks"
+                    >
+                      Drinks
+                    </WithStyles(MenuItem)>,
+                    <WithStyles(MenuItem)
+                      value="dinner"
+                    >
+                      Dinner
+                    </WithStyles(MenuItem)>,
+                    <WithStyles(MenuItem)
+                      value="burgers"
+                    >
+                      Burgers
+                    </WithStyles(MenuItem)>,
+                    <WithStyles(MenuItem)
+                      value="tacos"
+                    >
+                      Tacos
+                    </WithStyles(MenuItem)>,
+                    <WithStyles(MenuItem)
+                      value="sushi"
+                    >
+                      Sushi
+                    </WithStyles(MenuItem)>,
+                    <WithStyles(MenuItem)
+                      value="brewery"
+                    >
+                      Brewery
+                    </WithStyles(MenuItem)>,
+                    <WithStyles(MenuItem)
+                      value="club"
+                    >
+                      Club
+                    </WithStyles(MenuItem)>,
+                    <WithStyles(MenuItem)
+                      value="coffee"
+                    >
+                      Coffee
+                    </WithStyles(MenuItem)>,
+                    <WithStyles(MenuItem)
+                      value="lunch"
+                    >
+                      Lunch
+                    </WithStyles(MenuItem)>,
+                    <WithStyles(MenuItem)
+                      value="brunch"
+                    >
+                      Brunch
+                    </WithStyles(MenuItem)>,
+                    <WithStyles(MenuItem)
+                      value="other"
+                    >
+                      Other
+                    </WithStyles(MenuItem)>,
+                  ],
+                  "displayEmpty": true,
+                  "fullWidth": true,
+                  "id": "name",
+                  "label": "Category",
+                  "name": "category",
+                  "onChange": [Function],
+                  "style": Object {
+                    "marginTop": "13px",
+                  },
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Category",
+                      "disabled": true,
+                      "value": "",
+                    },
+                    "ref": null,
+                    "rendered": "Category",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Drinks",
+                      "value": "drinks",
+                    },
+                    "ref": null,
+                    "rendered": "Drinks",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Dinner",
+                      "value": "dinner",
+                    },
+                    "ref": null,
+                    "rendered": "Dinner",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Burgers",
+                      "value": "burgers",
+                    },
+                    "ref": null,
+                    "rendered": "Burgers",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Tacos",
+                      "value": "tacos",
+                    },
+                    "ref": null,
+                    "rendered": "Tacos",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Sushi",
+                      "value": "sushi",
+                    },
+                    "ref": null,
+                    "rendered": "Sushi",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Brewery",
+                      "value": "brewery",
+                    },
+                    "ref": null,
+                    "rendered": "Brewery",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Club",
+                      "value": "club",
+                    },
+                    "ref": null,
+                    "rendered": "Club",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Coffee",
+                      "value": "coffee",
+                    },
+                    "ref": null,
+                    "rendered": "Coffee",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Lunch",
+                      "value": "lunch",
+                    },
+                    "ref": null,
+                    "rendered": "Lunch",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Brunch",
+                      "value": "brunch",
+                    },
+                    "ref": null,
+                    "rendered": "Brunch",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Other",
+                      "value": "other",
+                    },
+                    "ref": null,
+                    "rendered": "Other",
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "fullWidth": true,
+                  "id": "name",
+                  "label": "Description",
+                  "margin": "dense",
+                  "onChange": [Function],
+                  "required": false,
+                  "select": false,
+                  "type": "description",
+                  "value": "",
+                  "variant": "standard",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <WithStyles(Button)
+                  color="primary"
+                  onClick={[Function]}
+                >
+                  Cancel
+                </WithStyles(Button)>,
+                <WithStyles(Button)
+                  color="primary"
+                  onClick={[Function]}
+                >
+                  Submit
+                </WithStyles(Button)>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "Cancel",
+                  "color": "primary",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "Cancel",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "Submit",
+                  "color": "primary",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "Submit",
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "aria-describedby": "alert-dialog-description",
+          "aria-labelledby": "alert-dialog-title",
+          "children": Array [
+            <WithStyles(DialogTitle)
+              id="alert-dialog-title"
+            >
+              Form Errors
+            </WithStyles(DialogTitle)>,
+            <WithStyles(DialogContent)>
+              <WithStyles(DialogContentText)
+                id="alert-dialog-description"
+              >
+                Please fill out all required fields
+              </WithStyles(DialogContentText)>
+            </WithStyles(DialogContent)>,
+            <WithStyles(DialogActions)>
+              <WithStyles(Button)
+                color="primary"
+                onClick={[Function]}
+              >
+                Close
+              </WithStyles(Button)>
+            </WithStyles(DialogActions)>,
+          ],
+          "onClose": undefined,
+          "open": false,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Form Errors",
+              "id": "alert-dialog-title",
+            },
+            "ref": null,
+            "rendered": "Form Errors",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(DialogContentText)
+                id="alert-dialog-description"
+              >
+                Please fill out all required fields
+              </WithStyles(DialogContentText)>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Please fill out all required fields",
+                "id": "alert-dialog-description",
+              },
+              "ref": null,
+              "rendered": "Please fill out all required fields",
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(Button)
+                color="primary"
+                onClick={[Function]}
+              >
+                Close
+              </WithStyles(Button)>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Close",
+                "color": "primary",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Close",
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <WithStyles(Dialog)
+            aria-labelledby="form-dialog-title"
+            onClose={[Function]}
+            open={true}
+          >
+            <WithStyles(DialogTitle)
+              id="form-dialog-title"
+            >
+              Add Place
+            </WithStyles(DialogTitle)>
+            <WithStyles(DialogContent)
+              style={
+                Object {
+                  "paddingLeft": "25px",
+                  "paddingRight": "25px",
+                }
+              }
+            >
+              <WithStyles(DialogContentText)
+                style={
+                  Object {
+                    "marginBottom": "10px",
+                  }
+                }
+              >
+                Please fill out the place form to add your spot to the list!
+              </WithStyles(DialogContentText)>
+              <MUIPlacesAutocomplete
+                createAutocompleteRequest={[Function]}
+                onSuggestionSelected={[Function]}
+                renderTarget={[Function]}
+                style={
+                  Object {
+                    "marginTop": 25,
+                  }
+                }
+                textFieldProps={
+                  Object {
+                    "autoFocus": false,
+                    "fullWidth": true,
+                    "placeholder": "Search for a place",
+                  }
+                }
+              />
+              <Validation
+                closures={Object {}}
+                defaultValueProp="defaultValue"
+                errorStyle={Object {}}
+                group="myGroup1"
+                onChangeCallback="onChange"
+                validators={
+                  Array [
+                    Object {
+                      "validator": [Function],
+                    },
+                  ]
+                }
+                valueProp="value"
+              >
+                <TextField
+                  error={true}
+                  fullWidth={true}
+                  helperText="Name cannot be blank"
+                  id="name"
+                  label="Name"
+                  margin="dense"
+                  onChange={[Function]}
+                  required={false}
+                  select={false}
+                  type="name"
+                  value=""
+                  variant="standard"
+                />
+              </Validation>
+              <Validation
+                closures={Object {}}
+                defaultValueProp="defaultValue"
+                errorStyle={Object {}}
+                group="myGroup1"
+                onChangeCallback="onChange"
+                validators={
+                  Array [
+                    Object {
+                      "validator": [Function],
+                    },
+                  ]
+                }
+                valueProp="value"
+              >
+                <TextField
+                  error={true}
+                  fullWidth={true}
+                  helperText="Address cannot be blank"
+                  id="name"
+                  label="Address"
+                  margin="dense"
+                  onChange={[Function]}
+                  required={false}
+                  select={false}
+                  type="address"
+                  value=""
+                  variant="standard"
+                />
+              </Validation>
+              <WithStyles(WithFormControlContext(Select))
+                displayEmpty={true}
+                fullWidth={true}
+                id="name"
+                label="Category"
+                name="category"
+                onChange={[Function]}
+                style={
+                  Object {
+                    "marginTop": "13px",
+                  }
+                }
+                value=""
+              >
+                <WithStyles(MenuItem)
+                  disabled={true}
+                  value=""
+                >
+                  Category
+                </WithStyles(MenuItem)>
+                <WithStyles(MenuItem)
+                  value="drinks"
+                >
+                  Drinks
+                </WithStyles(MenuItem)>
+                <WithStyles(MenuItem)
+                  value="dinner"
+                >
+                  Dinner
+                </WithStyles(MenuItem)>
+                <WithStyles(MenuItem)
+                  value="burgers"
+                >
+                  Burgers
+                </WithStyles(MenuItem)>
+                <WithStyles(MenuItem)
+                  value="tacos"
+                >
+                  Tacos
+                </WithStyles(MenuItem)>
+                <WithStyles(MenuItem)
+                  value="sushi"
+                >
+                  Sushi
+                </WithStyles(MenuItem)>
+                <WithStyles(MenuItem)
+                  value="brewery"
+                >
+                  Brewery
+                </WithStyles(MenuItem)>
+                <WithStyles(MenuItem)
+                  value="club"
+                >
+                  Club
+                </WithStyles(MenuItem)>
+                <WithStyles(MenuItem)
+                  value="coffee"
+                >
+                  Coffee
+                </WithStyles(MenuItem)>
+                <WithStyles(MenuItem)
+                  value="lunch"
+                >
+                  Lunch
+                </WithStyles(MenuItem)>
+                <WithStyles(MenuItem)
+                  value="brunch"
+                >
+                  Brunch
+                </WithStyles(MenuItem)>
+                <WithStyles(MenuItem)
+                  value="other"
+                >
+                  Other
+                </WithStyles(MenuItem)>
+              </WithStyles(WithFormControlContext(Select))>
+              <TextField
+                fullWidth={true}
+                id="name"
+                label="Description"
+                margin="dense"
+                onChange={[Function]}
+                required={false}
+                select={false}
+                type="description"
+                value=""
+                variant="standard"
+              />
+            </WithStyles(DialogContent)>
+            <WithStyles(DialogActions)>
+              <WithStyles(Button)
+                color="primary"
+                onClick={[Function]}
+              >
+                Cancel
+              </WithStyles(Button)>
+              <WithStyles(Button)
+                color="primary"
+                onClick={[Function]}
+              >
+                Submit
+              </WithStyles(Button)>
+            </WithStyles(DialogActions)>
+          </WithStyles(Dialog)>,
+          <WithStyles(Dialog)
+            aria-describedby="alert-dialog-description"
+            aria-labelledby="alert-dialog-title"
+            open={false}
+          >
+            <WithStyles(DialogTitle)
+              id="alert-dialog-title"
+            >
+              Form Errors
+            </WithStyles(DialogTitle)>
+            <WithStyles(DialogContent)>
+              <WithStyles(DialogContentText)
+                id="alert-dialog-description"
+              >
+                Please fill out all required fields
+              </WithStyles(DialogContentText)>
+            </WithStyles(DialogContent)>
+            <WithStyles(DialogActions)>
+              <WithStyles(Button)
+                color="primary"
+                onClick={[Function]}
+              >
+                Close
+              </WithStyles(Button)>
+            </WithStyles(DialogActions)>
+          </WithStyles(Dialog)>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "aria-labelledby": "form-dialog-title",
+            "children": Array [
+              <WithStyles(DialogTitle)
+                id="form-dialog-title"
+              >
+                Add Place
+              </WithStyles(DialogTitle)>,
+              <WithStyles(DialogContent)
+                style={
+                  Object {
+                    "paddingLeft": "25px",
+                    "paddingRight": "25px",
+                  }
+                }
+              >
+                <WithStyles(DialogContentText)
+                  style={
+                    Object {
+                      "marginBottom": "10px",
+                    }
+                  }
+                >
+                  Please fill out the place form to add your spot to the list!
+                </WithStyles(DialogContentText)>
+                <MUIPlacesAutocomplete
+                  createAutocompleteRequest={[Function]}
+                  onSuggestionSelected={[Function]}
+                  renderTarget={[Function]}
+                  style={
+                    Object {
+                      "marginTop": 25,
+                    }
+                  }
+                  textFieldProps={
+                    Object {
+                      "autoFocus": false,
+                      "fullWidth": true,
+                      "placeholder": "Search for a place",
+                    }
+                  }
+                />
+                <Validation
+                  closures={Object {}}
+                  defaultValueProp="defaultValue"
+                  errorStyle={Object {}}
+                  group="myGroup1"
+                  onChangeCallback="onChange"
+                  validators={
+                    Array [
+                      Object {
+                        "validator": [Function],
+                      },
+                    ]
+                  }
+                  valueProp="value"
+                >
+                  <TextField
+                    error={true}
+                    fullWidth={true}
+                    helperText="Name cannot be blank"
+                    id="name"
+                    label="Name"
+                    margin="dense"
+                    onChange={[Function]}
+                    required={false}
+                    select={false}
+                    type="name"
+                    value=""
+                    variant="standard"
+                  />
+                </Validation>
+                <Validation
+                  closures={Object {}}
+                  defaultValueProp="defaultValue"
+                  errorStyle={Object {}}
+                  group="myGroup1"
+                  onChangeCallback="onChange"
+                  validators={
+                    Array [
+                      Object {
+                        "validator": [Function],
+                      },
+                    ]
+                  }
+                  valueProp="value"
+                >
+                  <TextField
+                    error={true}
+                    fullWidth={true}
+                    helperText="Address cannot be blank"
+                    id="name"
+                    label="Address"
+                    margin="dense"
+                    onChange={[Function]}
+                    required={false}
+                    select={false}
+                    type="address"
+                    value=""
+                    variant="standard"
+                  />
+                </Validation>
+                <WithStyles(WithFormControlContext(Select))
+                  displayEmpty={true}
+                  fullWidth={true}
+                  id="name"
+                  label="Category"
+                  name="category"
+                  onChange={[Function]}
+                  style={
+                    Object {
+                      "marginTop": "13px",
+                    }
+                  }
+                  value=""
+                >
+                  <WithStyles(MenuItem)
+                    disabled={true}
+                    value=""
+                  >
+                    Category
+                  </WithStyles(MenuItem)>
+                  <WithStyles(MenuItem)
+                    value="drinks"
+                  >
+                    Drinks
+                  </WithStyles(MenuItem)>
+                  <WithStyles(MenuItem)
+                    value="dinner"
+                  >
+                    Dinner
+                  </WithStyles(MenuItem)>
+                  <WithStyles(MenuItem)
+                    value="burgers"
+                  >
+                    Burgers
+                  </WithStyles(MenuItem)>
+                  <WithStyles(MenuItem)
+                    value="tacos"
+                  >
+                    Tacos
+                  </WithStyles(MenuItem)>
+                  <WithStyles(MenuItem)
+                    value="sushi"
+                  >
+                    Sushi
+                  </WithStyles(MenuItem)>
+                  <WithStyles(MenuItem)
+                    value="brewery"
+                  >
+                    Brewery
+                  </WithStyles(MenuItem)>
+                  <WithStyles(MenuItem)
+                    value="club"
+                  >
+                    Club
+                  </WithStyles(MenuItem)>
+                  <WithStyles(MenuItem)
+                    value="coffee"
+                  >
+                    Coffee
+                  </WithStyles(MenuItem)>
+                  <WithStyles(MenuItem)
+                    value="lunch"
+                  >
+                    Lunch
+                  </WithStyles(MenuItem)>
+                  <WithStyles(MenuItem)
+                    value="brunch"
+                  >
+                    Brunch
+                  </WithStyles(MenuItem)>
+                  <WithStyles(MenuItem)
+                    value="other"
+                  >
+                    Other
+                  </WithStyles(MenuItem)>
+                </WithStyles(WithFormControlContext(Select))>
+                <TextField
+                  fullWidth={true}
+                  id="name"
+                  label="Description"
+                  margin="dense"
+                  onChange={[Function]}
+                  required={false}
+                  select={false}
+                  type="description"
+                  value=""
+                  variant="standard"
+                />
+              </WithStyles(DialogContent)>,
+              <WithStyles(DialogActions)>
+                <WithStyles(Button)
+                  color="primary"
+                  onClick={[Function]}
+                >
+                  Cancel
+                </WithStyles(Button)>
+                <WithStyles(Button)
+                  color="primary"
+                  onClick={[Function]}
+                >
+                  Submit
+                </WithStyles(Button)>
+              </WithStyles(DialogActions)>,
+            ],
+            "onClose": [Function],
+            "open": true,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Add Place",
+                "id": "form-dialog-title",
+              },
+              "ref": null,
+              "rendered": "Add Place",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <WithStyles(DialogContentText)
+                    style={
+                      Object {
+                        "marginBottom": "10px",
+                      }
+                    }
+                  >
+                    Please fill out the place form to add your spot to the list!
+                  </WithStyles(DialogContentText)>,
+                  <MUIPlacesAutocomplete
+                    createAutocompleteRequest={[Function]}
+                    onSuggestionSelected={[Function]}
+                    renderTarget={[Function]}
+                    style={
+                      Object {
+                        "marginTop": 25,
+                      }
+                    }
+                    textFieldProps={
+                      Object {
+                        "autoFocus": false,
+                        "fullWidth": true,
+                        "placeholder": "Search for a place",
+                      }
+                    }
+                  />,
+                  <Validation
+                    closures={Object {}}
+                    defaultValueProp="defaultValue"
+                    errorStyle={Object {}}
+                    group="myGroup1"
+                    onChangeCallback="onChange"
+                    validators={
+                      Array [
+                        Object {
+                          "validator": [Function],
+                        },
+                      ]
+                    }
+                    valueProp="value"
+                  >
+                    <TextField
+                      error={true}
+                      fullWidth={true}
+                      helperText="Name cannot be blank"
+                      id="name"
+                      label="Name"
+                      margin="dense"
+                      onChange={[Function]}
+                      required={false}
+                      select={false}
+                      type="name"
+                      value=""
+                      variant="standard"
+                    />
+                  </Validation>,
+                  <Validation
+                    closures={Object {}}
+                    defaultValueProp="defaultValue"
+                    errorStyle={Object {}}
+                    group="myGroup1"
+                    onChangeCallback="onChange"
+                    validators={
+                      Array [
+                        Object {
+                          "validator": [Function],
+                        },
+                      ]
+                    }
+                    valueProp="value"
+                  >
+                    <TextField
+                      error={true}
+                      fullWidth={true}
+                      helperText="Address cannot be blank"
+                      id="name"
+                      label="Address"
+                      margin="dense"
+                      onChange={[Function]}
+                      required={false}
+                      select={false}
+                      type="address"
+                      value=""
+                      variant="standard"
+                    />
+                  </Validation>,
+                  <WithStyles(WithFormControlContext(Select))
+                    displayEmpty={true}
+                    fullWidth={true}
+                    id="name"
+                    label="Category"
+                    name="category"
+                    onChange={[Function]}
+                    style={
+                      Object {
+                        "marginTop": "13px",
+                      }
+                    }
+                    value=""
+                  >
+                    <WithStyles(MenuItem)
+                      disabled={true}
+                      value=""
+                    >
+                      Category
+                    </WithStyles(MenuItem)>
+                    <WithStyles(MenuItem)
+                      value="drinks"
+                    >
+                      Drinks
+                    </WithStyles(MenuItem)>
+                    <WithStyles(MenuItem)
+                      value="dinner"
+                    >
+                      Dinner
+                    </WithStyles(MenuItem)>
+                    <WithStyles(MenuItem)
+                      value="burgers"
+                    >
+                      Burgers
+                    </WithStyles(MenuItem)>
+                    <WithStyles(MenuItem)
+                      value="tacos"
+                    >
+                      Tacos
+                    </WithStyles(MenuItem)>
+                    <WithStyles(MenuItem)
+                      value="sushi"
+                    >
+                      Sushi
+                    </WithStyles(MenuItem)>
+                    <WithStyles(MenuItem)
+                      value="brewery"
+                    >
+                      Brewery
+                    </WithStyles(MenuItem)>
+                    <WithStyles(MenuItem)
+                      value="club"
+                    >
+                      Club
+                    </WithStyles(MenuItem)>
+                    <WithStyles(MenuItem)
+                      value="coffee"
+                    >
+                      Coffee
+                    </WithStyles(MenuItem)>
+                    <WithStyles(MenuItem)
+                      value="lunch"
+                    >
+                      Lunch
+                    </WithStyles(MenuItem)>
+                    <WithStyles(MenuItem)
+                      value="brunch"
+                    >
+                      Brunch
+                    </WithStyles(MenuItem)>
+                    <WithStyles(MenuItem)
+                      value="other"
+                    >
+                      Other
+                    </WithStyles(MenuItem)>
+                  </WithStyles(WithFormControlContext(Select))>,
+                  <TextField
+                    fullWidth={true}
+                    id="name"
+                    label="Description"
+                    margin="dense"
+                    onChange={[Function]}
+                    required={false}
+                    select={false}
+                    type="description"
+                    value=""
+                    variant="standard"
+                  />,
+                ],
+                "style": Object {
+                  "paddingLeft": "25px",
+                  "paddingRight": "25px",
+                },
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Please fill out the place form to add your spot to the list!",
+                    "style": Object {
+                      "marginBottom": "10px",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": "Please fill out the place form to add your spot to the list!",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "createAutocompleteRequest": [Function],
+                    "onSuggestionSelected": [Function],
+                    "renderTarget": [Function],
+                    "style": Object {
+                      "marginTop": 25,
+                    },
+                    "textFieldProps": Object {
+                      "autoFocus": false,
+                      "fullWidth": true,
+                      "placeholder": "Search for a place",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <TextField
+                      error={true}
+                      fullWidth={true}
+                      helperText="Name cannot be blank"
+                      id="name"
+                      label="Name"
+                      margin="dense"
+                      onChange={[Function]}
+                      required={false}
+                      select={false}
+                      type="name"
+                      value=""
+                      variant="standard"
+                    />,
+                    "closures": Object {},
+                    "defaultValueProp": "defaultValue",
+                    "errorStyle": Object {},
+                    "group": "myGroup1",
+                    "onChangeCallback": "onChange",
+                    "validators": Array [
+                      Object {
+                        "validator": [Function],
+                      },
+                    ],
+                    "valueProp": "value",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "error": true,
+                      "fullWidth": true,
+                      "helperText": "Name cannot be blank",
+                      "id": "name",
+                      "label": "Name",
+                      "margin": "dense",
+                      "onChange": [Function],
+                      "required": false,
+                      "select": false,
+                      "type": "name",
+                      "value": "",
+                      "variant": "standard",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <TextField
+                      error={true}
+                      fullWidth={true}
+                      helperText="Address cannot be blank"
+                      id="name"
+                      label="Address"
+                      margin="dense"
+                      onChange={[Function]}
+                      required={false}
+                      select={false}
+                      type="address"
+                      value=""
+                      variant="standard"
+                    />,
+                    "closures": Object {},
+                    "defaultValueProp": "defaultValue",
+                    "errorStyle": Object {},
+                    "group": "myGroup1",
+                    "onChangeCallback": "onChange",
+                    "validators": Array [
+                      Object {
+                        "validator": [Function],
+                      },
+                    ],
+                    "valueProp": "value",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "error": true,
+                      "fullWidth": true,
+                      "helperText": "Address cannot be blank",
+                      "id": "name",
+                      "label": "Address",
+                      "margin": "dense",
+                      "onChange": [Function],
+                      "required": false,
+                      "select": false,
+                      "type": "address",
+                      "value": "",
+                      "variant": "standard",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      <WithStyles(MenuItem)
+                        disabled={true}
+                        value=""
+                      >
+                        Category
+                      </WithStyles(MenuItem)>,
+                      <WithStyles(MenuItem)
+                        value="drinks"
+                      >
+                        Drinks
+                      </WithStyles(MenuItem)>,
+                      <WithStyles(MenuItem)
+                        value="dinner"
+                      >
+                        Dinner
+                      </WithStyles(MenuItem)>,
+                      <WithStyles(MenuItem)
+                        value="burgers"
+                      >
+                        Burgers
+                      </WithStyles(MenuItem)>,
+                      <WithStyles(MenuItem)
+                        value="tacos"
+                      >
+                        Tacos
+                      </WithStyles(MenuItem)>,
+                      <WithStyles(MenuItem)
+                        value="sushi"
+                      >
+                        Sushi
+                      </WithStyles(MenuItem)>,
+                      <WithStyles(MenuItem)
+                        value="brewery"
+                      >
+                        Brewery
+                      </WithStyles(MenuItem)>,
+                      <WithStyles(MenuItem)
+                        value="club"
+                      >
+                        Club
+                      </WithStyles(MenuItem)>,
+                      <WithStyles(MenuItem)
+                        value="coffee"
+                      >
+                        Coffee
+                      </WithStyles(MenuItem)>,
+                      <WithStyles(MenuItem)
+                        value="lunch"
+                      >
+                        Lunch
+                      </WithStyles(MenuItem)>,
+                      <WithStyles(MenuItem)
+                        value="brunch"
+                      >
+                        Brunch
+                      </WithStyles(MenuItem)>,
+                      <WithStyles(MenuItem)
+                        value="other"
+                      >
+                        Other
+                      </WithStyles(MenuItem)>,
+                    ],
+                    "displayEmpty": true,
+                    "fullWidth": true,
+                    "id": "name",
+                    "label": "Category",
+                    "name": "category",
+                    "onChange": [Function],
+                    "style": Object {
+                      "marginTop": "13px",
+                    },
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "Category",
+                        "disabled": true,
+                        "value": "",
+                      },
+                      "ref": null,
+                      "rendered": "Category",
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "Drinks",
+                        "value": "drinks",
+                      },
+                      "ref": null,
+                      "rendered": "Drinks",
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "Dinner",
+                        "value": "dinner",
+                      },
+                      "ref": null,
+                      "rendered": "Dinner",
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "Burgers",
+                        "value": "burgers",
+                      },
+                      "ref": null,
+                      "rendered": "Burgers",
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "Tacos",
+                        "value": "tacos",
+                      },
+                      "ref": null,
+                      "rendered": "Tacos",
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "Sushi",
+                        "value": "sushi",
+                      },
+                      "ref": null,
+                      "rendered": "Sushi",
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "Brewery",
+                        "value": "brewery",
+                      },
+                      "ref": null,
+                      "rendered": "Brewery",
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "Club",
+                        "value": "club",
+                      },
+                      "ref": null,
+                      "rendered": "Club",
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "Coffee",
+                        "value": "coffee",
+                      },
+                      "ref": null,
+                      "rendered": "Coffee",
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "Lunch",
+                        "value": "lunch",
+                      },
+                      "ref": null,
+                      "rendered": "Lunch",
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "Brunch",
+                        "value": "brunch",
+                      },
+                      "ref": null,
+                      "rendered": "Brunch",
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": "Other",
+                        "value": "other",
+                      },
+                      "ref": null,
+                      "rendered": "Other",
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "fullWidth": true,
+                    "id": "name",
+                    "label": "Description",
+                    "margin": "dense",
+                    "onChange": [Function],
+                    "required": false,
+                    "select": false,
+                    "type": "description",
+                    "value": "",
+                    "variant": "standard",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <WithStyles(Button)
+                    color="primary"
+                    onClick={[Function]}
+                  >
+                    Cancel
+                  </WithStyles(Button)>,
+                  <WithStyles(Button)
+                    color="primary"
+                    onClick={[Function]}
+                  >
+                    Submit
+                  </WithStyles(Button)>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Cancel",
+                    "color": "primary",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": "Cancel",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Submit",
+                    "color": "primary",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": "Submit",
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "aria-describedby": "alert-dialog-description",
+            "aria-labelledby": "alert-dialog-title",
+            "children": Array [
+              <WithStyles(DialogTitle)
+                id="alert-dialog-title"
+              >
+                Form Errors
+              </WithStyles(DialogTitle)>,
+              <WithStyles(DialogContent)>
+                <WithStyles(DialogContentText)
+                  id="alert-dialog-description"
+                >
+                  Please fill out all required fields
+                </WithStyles(DialogContentText)>
+              </WithStyles(DialogContent)>,
+              <WithStyles(DialogActions)>
+                <WithStyles(Button)
+                  color="primary"
+                  onClick={[Function]}
+                >
+                  Close
+                </WithStyles(Button)>
+              </WithStyles(DialogActions)>,
+            ],
+            "onClose": undefined,
+            "open": false,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Form Errors",
+                "id": "alert-dialog-title",
+              },
+              "ref": null,
+              "rendered": "Form Errors",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <WithStyles(DialogContentText)
+                  id="alert-dialog-description"
+                >
+                  Please fill out all required fields
+                </WithStyles(DialogContentText)>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "Please fill out all required fields",
+                  "id": "alert-dialog-description",
+                },
+                "ref": null,
+                "rendered": "Please fill out all required fields",
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <WithStyles(Button)
+                  color="primary"
+                  onClick={[Function]}
+                >
+                  Close
+                </WithStyles(Button)>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "Close",
+                  "color": "primary",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "Close",
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

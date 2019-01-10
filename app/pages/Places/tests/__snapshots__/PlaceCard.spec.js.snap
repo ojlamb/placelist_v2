@@ -1,0 +1,362 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderView snapshots Scenario 1 matches snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <PlaceCard
+    address="123 main st."
+    category="dinner"
+    classes={Object {}}
+    id={1}
+    name="Owens Grill"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <WithStyles(CardMedia)
+          image="IMAGE_MOCK"
+          title="Owens Grill"
+        />,
+        <WithStyles(CardContent)>
+          <WithStyles(Typography)
+            component="h2"
+            gutterBottom={true}
+            variant="h5"
+          >
+            Owens Grill
+          </WithStyles(Typography)>
+          <WithStyles(Typography)
+            component="p"
+          >
+            123 main st.
+          </WithStyles(Typography)>
+        </WithStyles(CardContent)>,
+        <WithStyles(CardActions)>
+          <Link
+            replace={false}
+            to="/place/1"
+          >
+            <WithStyles(Button)
+              color="primary"
+              size="small"
+            >
+              More
+            </WithStyles(Button)>
+          </Link>
+        </WithStyles(CardActions)>,
+      ],
+      "className": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "className": undefined,
+          "image": "IMAGE_MOCK",
+          "title": "Owens Grill",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <WithStyles(Typography)
+              component="h2"
+              gutterBottom={true}
+              variant="h5"
+            >
+              Owens Grill
+            </WithStyles(Typography)>,
+            <WithStyles(Typography)
+              component="p"
+            >
+              123 main st.
+            </WithStyles(Typography)>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Owens Grill",
+              "component": "h2",
+              "gutterBottom": true,
+              "variant": "h5",
+            },
+            "ref": null,
+            "rendered": "Owens Grill",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "123 main st.",
+              "component": "p",
+            },
+            "ref": null,
+            "rendered": "123 main st.",
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <Link
+            replace={false}
+            to="/place/1"
+          >
+            <WithStyles(Button)
+              color="primary"
+              size="small"
+            >
+              More
+            </WithStyles(Button)>
+          </Link>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(Button)
+              color="primary"
+              size="small"
+            >
+              More
+            </WithStyles(Button)>,
+            "className": undefined,
+            "replace": false,
+            "to": "/place/1",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "More",
+              "color": "primary",
+              "size": "small",
+            },
+            "ref": null,
+            "rendered": "More",
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <WithStyles(CardMedia)
+            image="IMAGE_MOCK"
+            title="Owens Grill"
+          />,
+          <WithStyles(CardContent)>
+            <WithStyles(Typography)
+              component="h2"
+              gutterBottom={true}
+              variant="h5"
+            >
+              Owens Grill
+            </WithStyles(Typography)>
+            <WithStyles(Typography)
+              component="p"
+            >
+              123 main st.
+            </WithStyles(Typography)>
+          </WithStyles(CardContent)>,
+          <WithStyles(CardActions)>
+            <Link
+              replace={false}
+              to="/place/1"
+            >
+              <WithStyles(Button)
+                color="primary"
+                size="small"
+              >
+                More
+              </WithStyles(Button)>
+            </Link>
+          </WithStyles(CardActions)>,
+        ],
+        "className": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "className": undefined,
+            "image": "IMAGE_MOCK",
+            "title": "Owens Grill",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <WithStyles(Typography)
+                component="h2"
+                gutterBottom={true}
+                variant="h5"
+              >
+                Owens Grill
+              </WithStyles(Typography)>,
+              <WithStyles(Typography)
+                component="p"
+              >
+                123 main st.
+              </WithStyles(Typography)>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Owens Grill",
+                "component": "h2",
+                "gutterBottom": true,
+                "variant": "h5",
+              },
+              "ref": null,
+              "rendered": "Owens Grill",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "123 main st.",
+                "component": "p",
+              },
+              "ref": null,
+              "rendered": "123 main st.",
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <Link
+              replace={false}
+              to="/place/1"
+            >
+              <WithStyles(Button)
+                color="primary"
+                size="small"
+              >
+                More
+              </WithStyles(Button)>
+            </Link>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(Button)
+                color="primary"
+                size="small"
+              >
+                More
+              </WithStyles(Button)>,
+              "className": undefined,
+              "replace": false,
+              "to": "/place/1",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "More",
+                "color": "primary",
+                "size": "small",
+              },
+              "ref": null,
+              "rendered": "More",
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

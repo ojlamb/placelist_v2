@@ -1,0 +1,2383 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlaceDetail snapshots Scenario 1 matches snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <PlaceDetail
+    actions={
+      Object {
+        "deletePlace": [MockFunction],
+        "getPlaceById": [MockFunction] {
+          "calls": Array [
+            Array [
+              1,
+            ],
+          ],
+          "results": Array [
+            Object {
+              "isThrow": false,
+              "value": undefined,
+            },
+          ],
+        },
+        "loadPlaces": [MockFunction],
+        "updatePlace": [MockFunction],
+      }
+    }
+    classes={Object {}}
+    history={
+      Object {
+        "push": [MockFunction],
+      }
+    }
+    match={
+      Object {
+        "params": Object {
+          "id": 1,
+        },
+        "path": "/",
+        "url": "/",
+      }
+    }
+    place={
+      Object {
+        "id": 1,
+        "lat": 40,
+        "lon": 100,
+        "user": Object {
+          "id": 1,
+          "name": "owen",
+        },
+      }
+    }
+    session={
+      Object {
+        "user": Object {
+          "user": Object {
+            "id": 1,
+          },
+        },
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div>
+        <EditPlace
+          actions={
+            Object {
+              "deletePlace": [MockFunction],
+              "getPlaceById": [MockFunction] {
+                "calls": Array [
+                  Array [
+                    1,
+                  ],
+                ],
+                "results": Array [
+                  Object {
+                    "isThrow": false,
+                    "value": undefined,
+                  },
+                ],
+              },
+              "loadPlaces": [MockFunction],
+              "updatePlace": [MockFunction],
+            }
+          }
+          classes={Object {}}
+          formOpen={false}
+          handleClose={[Function]}
+          history={
+            Object {
+              "push": [MockFunction],
+            }
+          }
+          match={
+            Object {
+              "params": Object {
+                "id": 1,
+              },
+              "path": "/",
+              "url": "/",
+            }
+          }
+          place={
+            Object {
+              "id": 1,
+              "lat": 40,
+              "lon": 100,
+              "user": Object {
+                "id": 1,
+                "name": "owen",
+              },
+            }
+          }
+          session={
+            Object {
+              "user": Object {
+                "user": Object {
+                  "id": 1,
+                },
+              },
+            }
+          }
+          updatePlace={[Function]}
+        />
+        <div
+          style={
+            Object {
+              "margin": "10px",
+            }
+          }
+        >
+          <WithStyles(Paper)
+            elevation={1}
+          >
+            <WithStyles(Grid)
+              container={true}
+              spacing={24}
+            >
+              <WithStyles(Grid)
+                item={true}
+                md={6}
+                xs={12}
+              >
+                <WithStyles(CardMedia)
+                  image="https://api.mapbox.com/styles/v1/mapbox/streets-v10/static/pin-s+3f51b5(100,40)/100,40},14.0,0,0/570x270@2x?access_token=pk.eyJ1Ijoib3dlbmxhbWIiLCJhIjoiY2lleWljcnF4MDBiOXQ0bHR0anRvamtucSJ9.t3YnHHqvQZ8Y0MTCNy0NNw"
+                />
+              </WithStyles(Grid)>
+              <WithStyles(Grid)
+                item={true}
+                md={6}
+                xs={12}
+              >
+                <WithStyles(CardMedia)
+                  image="IMAGE_MOCK"
+                />
+              </WithStyles(Grid)>
+              <WithStyles(Grid)
+                item={true}
+                md={6}
+                xs={12}
+              >
+                <WithStyles(Typography)
+                  component="h3"
+                  variant="h6"
+                />
+                <WithStyles(Typography)
+                  component="p"
+                />
+                <WithStyles(Typography)
+                  component="p"
+                />
+                <WithStyles(Typography)
+                  component="p"
+                />
+                <WithStyles(Typography)
+                  component="p"
+                />
+                <div>
+                  <WithStyles(Button)
+                    color="primary"
+                    onClick={[Function]}
+                    size="small"
+                  >
+                    Edit
+                  </WithStyles(Button)>
+                  <WithStyles(Button)
+                    color="secondary"
+                    onClick={[Function]}
+                    size="small"
+                  >
+                    Delete
+                  </WithStyles(Button)>
+                </div>
+              </WithStyles(Grid)>
+              <WithStyles(Grid)
+                item={true}
+                md={6}
+                xs={12}
+              >
+                <WithStyles(Typography)
+                  component="p"
+                  variant="caption"
+                >
+                  <em>
+                    place added by 
+                    <b>
+                      owen
+                    </b>
+                  </em>
+                </WithStyles(Typography)>
+              </WithStyles(Grid)>
+            </WithStyles(Grid)>
+          </WithStyles(Paper)>
+        </div>
+        <WithStyles(Dialog)
+          aria-describedby="alert-dialog-description"
+          aria-labelledby="alert-dialog-title"
+          onClose={[Function]}
+          open={false}
+        >
+          <WithStyles(DialogTitle)
+            id="alert-dialog-title"
+          >
+            Delete Place
+          </WithStyles(DialogTitle)>
+          <WithStyles(DialogContent)>
+            <WithStyles(DialogContentText)
+              id="alert-dialog-description"
+            >
+              Are you sure you want to delete this place?
+            </WithStyles(DialogContentText)>
+          </WithStyles(DialogContent)>
+          <WithStyles(DialogActions)>
+            <WithStyles(Button)
+              color="primary"
+              onClick={[Function]}
+            >
+              No Cancel
+            </WithStyles(Button)>
+            <WithStyles(Button)
+              color="secondary"
+              onClick={[Function]}
+            >
+              Yes I am Sure
+            </WithStyles(Button)>
+          </WithStyles(DialogActions)>
+        </WithStyles(Dialog)>
+      </div>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <EditPlace
+            actions={
+              Object {
+                "deletePlace": [MockFunction],
+                "getPlaceById": [MockFunction] {
+                  "calls": Array [
+                    Array [
+                      1,
+                    ],
+                  ],
+                  "results": Array [
+                    Object {
+                      "isThrow": false,
+                      "value": undefined,
+                    },
+                  ],
+                },
+                "loadPlaces": [MockFunction],
+                "updatePlace": [MockFunction],
+              }
+            }
+            classes={Object {}}
+            formOpen={false}
+            handleClose={[Function]}
+            history={
+              Object {
+                "push": [MockFunction],
+              }
+            }
+            match={
+              Object {
+                "params": Object {
+                  "id": 1,
+                },
+                "path": "/",
+                "url": "/",
+              }
+            }
+            place={
+              Object {
+                "id": 1,
+                "lat": 40,
+                "lon": 100,
+                "user": Object {
+                  "id": 1,
+                  "name": "owen",
+                },
+              }
+            }
+            session={
+              Object {
+                "user": Object {
+                  "user": Object {
+                    "id": 1,
+                  },
+                },
+              }
+            }
+            updatePlace={[Function]}
+          />,
+          <div
+            style={
+              Object {
+                "margin": "10px",
+              }
+            }
+          >
+            <WithStyles(Paper)
+              elevation={1}
+            >
+              <WithStyles(Grid)
+                container={true}
+                spacing={24}
+              >
+                <WithStyles(Grid)
+                  item={true}
+                  md={6}
+                  xs={12}
+                >
+                  <WithStyles(CardMedia)
+                    image="https://api.mapbox.com/styles/v1/mapbox/streets-v10/static/pin-s+3f51b5(100,40)/100,40},14.0,0,0/570x270@2x?access_token=pk.eyJ1Ijoib3dlbmxhbWIiLCJhIjoiY2lleWljcnF4MDBiOXQ0bHR0anRvamtucSJ9.t3YnHHqvQZ8Y0MTCNy0NNw"
+                  />
+                </WithStyles(Grid)>
+                <WithStyles(Grid)
+                  item={true}
+                  md={6}
+                  xs={12}
+                >
+                  <WithStyles(CardMedia)
+                    image="IMAGE_MOCK"
+                  />
+                </WithStyles(Grid)>
+                <WithStyles(Grid)
+                  item={true}
+                  md={6}
+                  xs={12}
+                >
+                  <WithStyles(Typography)
+                    component="h3"
+                    variant="h6"
+                  />
+                  <WithStyles(Typography)
+                    component="p"
+                  />
+                  <WithStyles(Typography)
+                    component="p"
+                  />
+                  <WithStyles(Typography)
+                    component="p"
+                  />
+                  <WithStyles(Typography)
+                    component="p"
+                  />
+                  <div>
+                    <WithStyles(Button)
+                      color="primary"
+                      onClick={[Function]}
+                      size="small"
+                    >
+                      Edit
+                    </WithStyles(Button)>
+                    <WithStyles(Button)
+                      color="secondary"
+                      onClick={[Function]}
+                      size="small"
+                    >
+                      Delete
+                    </WithStyles(Button)>
+                  </div>
+                </WithStyles(Grid)>
+                <WithStyles(Grid)
+                  item={true}
+                  md={6}
+                  xs={12}
+                >
+                  <WithStyles(Typography)
+                    component="p"
+                    variant="caption"
+                  >
+                    <em>
+                      place added by 
+                      <b>
+                        owen
+                      </b>
+                    </em>
+                  </WithStyles(Typography)>
+                </WithStyles(Grid)>
+              </WithStyles(Grid)>
+            </WithStyles(Paper)>
+          </div>,
+          <WithStyles(Dialog)
+            aria-describedby="alert-dialog-description"
+            aria-labelledby="alert-dialog-title"
+            onClose={[Function]}
+            open={false}
+          >
+            <WithStyles(DialogTitle)
+              id="alert-dialog-title"
+            >
+              Delete Place
+            </WithStyles(DialogTitle)>
+            <WithStyles(DialogContent)>
+              <WithStyles(DialogContentText)
+                id="alert-dialog-description"
+              >
+                Are you sure you want to delete this place?
+              </WithStyles(DialogContentText)>
+            </WithStyles(DialogContent)>
+            <WithStyles(DialogActions)>
+              <WithStyles(Button)
+                color="primary"
+                onClick={[Function]}
+              >
+                No Cancel
+              </WithStyles(Button)>
+              <WithStyles(Button)
+                color="secondary"
+                onClick={[Function]}
+              >
+                Yes I am Sure
+              </WithStyles(Button)>
+            </WithStyles(DialogActions)>
+          </WithStyles(Dialog)>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "actions": Object {
+              "deletePlace": [MockFunction],
+              "getPlaceById": [MockFunction] {
+                "calls": Array [
+                  Array [
+                    1,
+                  ],
+                ],
+                "results": Array [
+                  Object {
+                    "isThrow": false,
+                    "value": undefined,
+                  },
+                ],
+              },
+              "loadPlaces": [MockFunction],
+              "updatePlace": [MockFunction],
+            },
+            "classes": Object {},
+            "formOpen": false,
+            "handleClose": [Function],
+            "history": Object {
+              "push": [MockFunction],
+            },
+            "match": Object {
+              "params": Object {
+                "id": 1,
+              },
+              "path": "/",
+              "url": "/",
+            },
+            "place": Object {
+              "id": 1,
+              "lat": 40,
+              "lon": 100,
+              "user": Object {
+                "id": 1,
+                "name": "owen",
+              },
+            },
+            "session": Object {
+              "user": Object {
+                "user": Object {
+                  "id": 1,
+                },
+              },
+            },
+            "updatePlace": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <WithStyles(Paper)
+              elevation={1}
+            >
+              <WithStyles(Grid)
+                container={true}
+                spacing={24}
+              >
+                <WithStyles(Grid)
+                  item={true}
+                  md={6}
+                  xs={12}
+                >
+                  <WithStyles(CardMedia)
+                    image="https://api.mapbox.com/styles/v1/mapbox/streets-v10/static/pin-s+3f51b5(100,40)/100,40},14.0,0,0/570x270@2x?access_token=pk.eyJ1Ijoib3dlbmxhbWIiLCJhIjoiY2lleWljcnF4MDBiOXQ0bHR0anRvamtucSJ9.t3YnHHqvQZ8Y0MTCNy0NNw"
+                  />
+                </WithStyles(Grid)>
+                <WithStyles(Grid)
+                  item={true}
+                  md={6}
+                  xs={12}
+                >
+                  <WithStyles(CardMedia)
+                    image="IMAGE_MOCK"
+                  />
+                </WithStyles(Grid)>
+                <WithStyles(Grid)
+                  item={true}
+                  md={6}
+                  xs={12}
+                >
+                  <WithStyles(Typography)
+                    component="h3"
+                    variant="h6"
+                  />
+                  <WithStyles(Typography)
+                    component="p"
+                  />
+                  <WithStyles(Typography)
+                    component="p"
+                  />
+                  <WithStyles(Typography)
+                    component="p"
+                  />
+                  <WithStyles(Typography)
+                    component="p"
+                  />
+                  <div>
+                    <WithStyles(Button)
+                      color="primary"
+                      onClick={[Function]}
+                      size="small"
+                    >
+                      Edit
+                    </WithStyles(Button)>
+                    <WithStyles(Button)
+                      color="secondary"
+                      onClick={[Function]}
+                      size="small"
+                    >
+                      Delete
+                    </WithStyles(Button)>
+                  </div>
+                </WithStyles(Grid)>
+                <WithStyles(Grid)
+                  item={true}
+                  md={6}
+                  xs={12}
+                >
+                  <WithStyles(Typography)
+                    component="p"
+                    variant="caption"
+                  >
+                    <em>
+                      place added by 
+                      <b>
+                        owen
+                      </b>
+                    </em>
+                  </WithStyles(Typography)>
+                </WithStyles(Grid)>
+              </WithStyles(Grid)>
+            </WithStyles(Paper)>,
+            "style": Object {
+              "margin": "10px",
+            },
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(Grid)
+                container={true}
+                spacing={24}
+              >
+                <WithStyles(Grid)
+                  item={true}
+                  md={6}
+                  xs={12}
+                >
+                  <WithStyles(CardMedia)
+                    image="https://api.mapbox.com/styles/v1/mapbox/streets-v10/static/pin-s+3f51b5(100,40)/100,40},14.0,0,0/570x270@2x?access_token=pk.eyJ1Ijoib3dlbmxhbWIiLCJhIjoiY2lleWljcnF4MDBiOXQ0bHR0anRvamtucSJ9.t3YnHHqvQZ8Y0MTCNy0NNw"
+                  />
+                </WithStyles(Grid)>
+                <WithStyles(Grid)
+                  item={true}
+                  md={6}
+                  xs={12}
+                >
+                  <WithStyles(CardMedia)
+                    image="IMAGE_MOCK"
+                  />
+                </WithStyles(Grid)>
+                <WithStyles(Grid)
+                  item={true}
+                  md={6}
+                  xs={12}
+                >
+                  <WithStyles(Typography)
+                    component="h3"
+                    variant="h6"
+                  />
+                  <WithStyles(Typography)
+                    component="p"
+                  />
+                  <WithStyles(Typography)
+                    component="p"
+                  />
+                  <WithStyles(Typography)
+                    component="p"
+                  />
+                  <WithStyles(Typography)
+                    component="p"
+                  />
+                  <div>
+                    <WithStyles(Button)
+                      color="primary"
+                      onClick={[Function]}
+                      size="small"
+                    >
+                      Edit
+                    </WithStyles(Button)>
+                    <WithStyles(Button)
+                      color="secondary"
+                      onClick={[Function]}
+                      size="small"
+                    >
+                      Delete
+                    </WithStyles(Button)>
+                  </div>
+                </WithStyles(Grid)>
+                <WithStyles(Grid)
+                  item={true}
+                  md={6}
+                  xs={12}
+                >
+                  <WithStyles(Typography)
+                    component="p"
+                    variant="caption"
+                  >
+                    <em>
+                      place added by 
+                      <b>
+                        owen
+                      </b>
+                    </em>
+                  </WithStyles(Typography)>
+                </WithStyles(Grid)>
+              </WithStyles(Grid)>,
+              "className": undefined,
+              "elevation": 1,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <WithStyles(Grid)
+                    item={true}
+                    md={6}
+                    xs={12}
+                  >
+                    <WithStyles(CardMedia)
+                      image="https://api.mapbox.com/styles/v1/mapbox/streets-v10/static/pin-s+3f51b5(100,40)/100,40},14.0,0,0/570x270@2x?access_token=pk.eyJ1Ijoib3dlbmxhbWIiLCJhIjoiY2lleWljcnF4MDBiOXQ0bHR0anRvamtucSJ9.t3YnHHqvQZ8Y0MTCNy0NNw"
+                    />
+                  </WithStyles(Grid)>,
+                  <WithStyles(Grid)
+                    item={true}
+                    md={6}
+                    xs={12}
+                  >
+                    <WithStyles(CardMedia)
+                      image="IMAGE_MOCK"
+                    />
+                  </WithStyles(Grid)>,
+                  <WithStyles(Grid)
+                    item={true}
+                    md={6}
+                    xs={12}
+                  >
+                    <WithStyles(Typography)
+                      component="h3"
+                      variant="h6"
+                    />
+                    <WithStyles(Typography)
+                      component="p"
+                    />
+                    <WithStyles(Typography)
+                      component="p"
+                    />
+                    <WithStyles(Typography)
+                      component="p"
+                    />
+                    <WithStyles(Typography)
+                      component="p"
+                    />
+                    <div>
+                      <WithStyles(Button)
+                        color="primary"
+                        onClick={[Function]}
+                        size="small"
+                      >
+                        Edit
+                      </WithStyles(Button)>
+                      <WithStyles(Button)
+                        color="secondary"
+                        onClick={[Function]}
+                        size="small"
+                      >
+                        Delete
+                      </WithStyles(Button)>
+                    </div>
+                  </WithStyles(Grid)>,
+                  <WithStyles(Grid)
+                    item={true}
+                    md={6}
+                    xs={12}
+                  >
+                    <WithStyles(Typography)
+                      component="p"
+                      variant="caption"
+                    >
+                      <em>
+                        place added by 
+                        <b>
+                          owen
+                        </b>
+                      </em>
+                    </WithStyles(Typography)>
+                  </WithStyles(Grid)>,
+                ],
+                "container": true,
+                "spacing": 24,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <WithStyles(CardMedia)
+                      image="https://api.mapbox.com/styles/v1/mapbox/streets-v10/static/pin-s+3f51b5(100,40)/100,40},14.0,0,0/570x270@2x?access_token=pk.eyJ1Ijoib3dlbmxhbWIiLCJhIjoiY2lleWljcnF4MDBiOXQ0bHR0anRvamtucSJ9.t3YnHHqvQZ8Y0MTCNy0NNw"
+                    />,
+                    "item": true,
+                    "md": 6,
+                    "xs": 12,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "className": undefined,
+                      "image": "https://api.mapbox.com/styles/v1/mapbox/streets-v10/static/pin-s+3f51b5(100,40)/100,40},14.0,0,0/570x270@2x?access_token=pk.eyJ1Ijoib3dlbmxhbWIiLCJhIjoiY2lleWljcnF4MDBiOXQ0bHR0anRvamtucSJ9.t3YnHHqvQZ8Y0MTCNy0NNw",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <WithStyles(CardMedia)
+                      image="IMAGE_MOCK"
+                    />,
+                    "item": true,
+                    "md": 6,
+                    "xs": 12,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "className": undefined,
+                      "image": "IMAGE_MOCK",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      <WithStyles(Typography)
+                        component="h3"
+                        variant="h6"
+                      />,
+                      <WithStyles(Typography)
+                        component="p"
+                      />,
+                      <WithStyles(Typography)
+                        component="p"
+                      />,
+                      <WithStyles(Typography)
+                        component="p"
+                      />,
+                      <WithStyles(Typography)
+                        component="p"
+                      />,
+                      <div>
+                        <WithStyles(Button)
+                          color="primary"
+                          onClick={[Function]}
+                          size="small"
+                        >
+                          Edit
+                        </WithStyles(Button)>
+                        <WithStyles(Button)
+                          color="secondary"
+                          onClick={[Function]}
+                          size="small"
+                        >
+                          Delete
+                        </WithStyles(Button)>
+                      </div>,
+                    ],
+                    "item": true,
+                    "md": 6,
+                    "xs": 12,
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": undefined,
+                        "component": "h3",
+                        "variant": "h6",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": undefined,
+                        "component": "p",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": undefined,
+                        "component": "p",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": undefined,
+                        "component": "p",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": undefined,
+                        "component": "p",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <WithStyles(Button)
+                            color="primary"
+                            onClick={[Function]}
+                            size="small"
+                          >
+                            Edit
+                          </WithStyles(Button)>,
+                          <WithStyles(Button)
+                            color="secondary"
+                            onClick={[Function]}
+                            size="small"
+                          >
+                            Delete
+                          </WithStyles(Button)>,
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "class",
+                          "props": Object {
+                            "children": "Edit",
+                            "color": "primary",
+                            "onClick": [Function],
+                            "size": "small",
+                          },
+                          "ref": null,
+                          "rendered": "Edit",
+                          "type": [Function],
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "class",
+                          "props": Object {
+                            "children": "Delete",
+                            "color": "secondary",
+                            "onClick": [Function],
+                            "size": "small",
+                          },
+                          "ref": null,
+                          "rendered": "Delete",
+                          "type": [Function],
+                        },
+                      ],
+                      "type": "div",
+                    },
+                  ],
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <WithStyles(Typography)
+                      component="p"
+                      variant="caption"
+                    >
+                      <em>
+                        place added by 
+                        <b>
+                          owen
+                        </b>
+                      </em>
+                    </WithStyles(Typography)>,
+                    "item": true,
+                    "md": 6,
+                    "xs": 12,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <em>
+                        place added by 
+                        <b>
+                          owen
+                        </b>
+                      </em>,
+                      "component": "p",
+                      "variant": "caption",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "place added by ",
+                          <b>
+                            owen
+                          </b>,
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "place added by ",
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "owen",
+                          },
+                          "ref": null,
+                          "rendered": "owen",
+                          "type": "b",
+                        },
+                      ],
+                      "type": "em",
+                    },
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "aria-describedby": "alert-dialog-description",
+            "aria-labelledby": "alert-dialog-title",
+            "children": Array [
+              <WithStyles(DialogTitle)
+                id="alert-dialog-title"
+              >
+                Delete Place
+              </WithStyles(DialogTitle)>,
+              <WithStyles(DialogContent)>
+                <WithStyles(DialogContentText)
+                  id="alert-dialog-description"
+                >
+                  Are you sure you want to delete this place?
+                </WithStyles(DialogContentText)>
+              </WithStyles(DialogContent)>,
+              <WithStyles(DialogActions)>
+                <WithStyles(Button)
+                  color="primary"
+                  onClick={[Function]}
+                >
+                  No Cancel
+                </WithStyles(Button)>
+                <WithStyles(Button)
+                  color="secondary"
+                  onClick={[Function]}
+                >
+                  Yes I am Sure
+                </WithStyles(Button)>
+              </WithStyles(DialogActions)>,
+            ],
+            "onClose": [Function],
+            "open": false,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "Delete Place",
+                "id": "alert-dialog-title",
+              },
+              "ref": null,
+              "rendered": "Delete Place",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <WithStyles(DialogContentText)
+                  id="alert-dialog-description"
+                >
+                  Are you sure you want to delete this place?
+                </WithStyles(DialogContentText)>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "Are you sure you want to delete this place?",
+                  "id": "alert-dialog-description",
+                },
+                "ref": null,
+                "rendered": "Are you sure you want to delete this place?",
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <WithStyles(Button)
+                    color="primary"
+                    onClick={[Function]}
+                  >
+                    No Cancel
+                  </WithStyles(Button)>,
+                  <WithStyles(Button)
+                    color="secondary"
+                    onClick={[Function]}
+                  >
+                    Yes I am Sure
+                  </WithStyles(Button)>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "No Cancel",
+                    "color": "primary",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": "No Cancel",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Yes I am Sure",
+                    "color": "secondary",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": "Yes I am Sure",
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div>
+          <EditPlace
+            actions={
+              Object {
+                "deletePlace": [MockFunction],
+                "getPlaceById": [MockFunction] {
+                  "calls": Array [
+                    Array [
+                      1,
+                    ],
+                  ],
+                  "results": Array [
+                    Object {
+                      "isThrow": false,
+                      "value": undefined,
+                    },
+                  ],
+                },
+                "loadPlaces": [MockFunction],
+                "updatePlace": [MockFunction],
+              }
+            }
+            classes={Object {}}
+            formOpen={false}
+            handleClose={[Function]}
+            history={
+              Object {
+                "push": [MockFunction],
+              }
+            }
+            match={
+              Object {
+                "params": Object {
+                  "id": 1,
+                },
+                "path": "/",
+                "url": "/",
+              }
+            }
+            place={
+              Object {
+                "id": 1,
+                "lat": 40,
+                "lon": 100,
+                "user": Object {
+                  "id": 1,
+                  "name": "owen",
+                },
+              }
+            }
+            session={
+              Object {
+                "user": Object {
+                  "user": Object {
+                    "id": 1,
+                  },
+                },
+              }
+            }
+            updatePlace={[Function]}
+          />
+          <div
+            style={
+              Object {
+                "margin": "10px",
+              }
+            }
+          >
+            <WithStyles(Paper)
+              elevation={1}
+            >
+              <WithStyles(Grid)
+                container={true}
+                spacing={24}
+              >
+                <WithStyles(Grid)
+                  item={true}
+                  md={6}
+                  xs={12}
+                >
+                  <WithStyles(CardMedia)
+                    image="https://api.mapbox.com/styles/v1/mapbox/streets-v10/static/pin-s+3f51b5(100,40)/100,40},14.0,0,0/570x270@2x?access_token=pk.eyJ1Ijoib3dlbmxhbWIiLCJhIjoiY2lleWljcnF4MDBiOXQ0bHR0anRvamtucSJ9.t3YnHHqvQZ8Y0MTCNy0NNw"
+                  />
+                </WithStyles(Grid)>
+                <WithStyles(Grid)
+                  item={true}
+                  md={6}
+                  xs={12}
+                >
+                  <WithStyles(CardMedia)
+                    image="IMAGE_MOCK"
+                  />
+                </WithStyles(Grid)>
+                <WithStyles(Grid)
+                  item={true}
+                  md={6}
+                  xs={12}
+                >
+                  <WithStyles(Typography)
+                    component="h3"
+                    variant="h6"
+                  />
+                  <WithStyles(Typography)
+                    component="p"
+                  />
+                  <WithStyles(Typography)
+                    component="p"
+                  />
+                  <WithStyles(Typography)
+                    component="p"
+                  />
+                  <WithStyles(Typography)
+                    component="p"
+                  />
+                  <div>
+                    <WithStyles(Button)
+                      color="primary"
+                      onClick={[Function]}
+                      size="small"
+                    >
+                      Edit
+                    </WithStyles(Button)>
+                    <WithStyles(Button)
+                      color="secondary"
+                      onClick={[Function]}
+                      size="small"
+                    >
+                      Delete
+                    </WithStyles(Button)>
+                  </div>
+                </WithStyles(Grid)>
+                <WithStyles(Grid)
+                  item={true}
+                  md={6}
+                  xs={12}
+                >
+                  <WithStyles(Typography)
+                    component="p"
+                    variant="caption"
+                  >
+                    <em>
+                      place added by 
+                      <b>
+                        owen
+                      </b>
+                    </em>
+                  </WithStyles(Typography)>
+                </WithStyles(Grid)>
+              </WithStyles(Grid)>
+            </WithStyles(Paper)>
+          </div>
+          <WithStyles(Dialog)
+            aria-describedby="alert-dialog-description"
+            aria-labelledby="alert-dialog-title"
+            onClose={[Function]}
+            open={false}
+          >
+            <WithStyles(DialogTitle)
+              id="alert-dialog-title"
+            >
+              Delete Place
+            </WithStyles(DialogTitle)>
+            <WithStyles(DialogContent)>
+              <WithStyles(DialogContentText)
+                id="alert-dialog-description"
+              >
+                Are you sure you want to delete this place?
+              </WithStyles(DialogContentText)>
+            </WithStyles(DialogContent)>
+            <WithStyles(DialogActions)>
+              <WithStyles(Button)
+                color="primary"
+                onClick={[Function]}
+              >
+                No Cancel
+              </WithStyles(Button)>
+              <WithStyles(Button)
+                color="secondary"
+                onClick={[Function]}
+              >
+                Yes I am Sure
+              </WithStyles(Button)>
+            </WithStyles(DialogActions)>
+          </WithStyles(Dialog)>
+        </div>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <EditPlace
+              actions={
+                Object {
+                  "deletePlace": [MockFunction],
+                  "getPlaceById": [MockFunction] {
+                    "calls": Array [
+                      Array [
+                        1,
+                      ],
+                    ],
+                    "results": Array [
+                      Object {
+                        "isThrow": false,
+                        "value": undefined,
+                      },
+                    ],
+                  },
+                  "loadPlaces": [MockFunction],
+                  "updatePlace": [MockFunction],
+                }
+              }
+              classes={Object {}}
+              formOpen={false}
+              handleClose={[Function]}
+              history={
+                Object {
+                  "push": [MockFunction],
+                }
+              }
+              match={
+                Object {
+                  "params": Object {
+                    "id": 1,
+                  },
+                  "path": "/",
+                  "url": "/",
+                }
+              }
+              place={
+                Object {
+                  "id": 1,
+                  "lat": 40,
+                  "lon": 100,
+                  "user": Object {
+                    "id": 1,
+                    "name": "owen",
+                  },
+                }
+              }
+              session={
+                Object {
+                  "user": Object {
+                    "user": Object {
+                      "id": 1,
+                    },
+                  },
+                }
+              }
+              updatePlace={[Function]}
+            />,
+            <div
+              style={
+                Object {
+                  "margin": "10px",
+                }
+              }
+            >
+              <WithStyles(Paper)
+                elevation={1}
+              >
+                <WithStyles(Grid)
+                  container={true}
+                  spacing={24}
+                >
+                  <WithStyles(Grid)
+                    item={true}
+                    md={6}
+                    xs={12}
+                  >
+                    <WithStyles(CardMedia)
+                      image="https://api.mapbox.com/styles/v1/mapbox/streets-v10/static/pin-s+3f51b5(100,40)/100,40},14.0,0,0/570x270@2x?access_token=pk.eyJ1Ijoib3dlbmxhbWIiLCJhIjoiY2lleWljcnF4MDBiOXQ0bHR0anRvamtucSJ9.t3YnHHqvQZ8Y0MTCNy0NNw"
+                    />
+                  </WithStyles(Grid)>
+                  <WithStyles(Grid)
+                    item={true}
+                    md={6}
+                    xs={12}
+                  >
+                    <WithStyles(CardMedia)
+                      image="IMAGE_MOCK"
+                    />
+                  </WithStyles(Grid)>
+                  <WithStyles(Grid)
+                    item={true}
+                    md={6}
+                    xs={12}
+                  >
+                    <WithStyles(Typography)
+                      component="h3"
+                      variant="h6"
+                    />
+                    <WithStyles(Typography)
+                      component="p"
+                    />
+                    <WithStyles(Typography)
+                      component="p"
+                    />
+                    <WithStyles(Typography)
+                      component="p"
+                    />
+                    <WithStyles(Typography)
+                      component="p"
+                    />
+                    <div>
+                      <WithStyles(Button)
+                        color="primary"
+                        onClick={[Function]}
+                        size="small"
+                      >
+                        Edit
+                      </WithStyles(Button)>
+                      <WithStyles(Button)
+                        color="secondary"
+                        onClick={[Function]}
+                        size="small"
+                      >
+                        Delete
+                      </WithStyles(Button)>
+                    </div>
+                  </WithStyles(Grid)>
+                  <WithStyles(Grid)
+                    item={true}
+                    md={6}
+                    xs={12}
+                  >
+                    <WithStyles(Typography)
+                      component="p"
+                      variant="caption"
+                    >
+                      <em>
+                        place added by 
+                        <b>
+                          owen
+                        </b>
+                      </em>
+                    </WithStyles(Typography)>
+                  </WithStyles(Grid)>
+                </WithStyles(Grid)>
+              </WithStyles(Paper)>
+            </div>,
+            <WithStyles(Dialog)
+              aria-describedby="alert-dialog-description"
+              aria-labelledby="alert-dialog-title"
+              onClose={[Function]}
+              open={false}
+            >
+              <WithStyles(DialogTitle)
+                id="alert-dialog-title"
+              >
+                Delete Place
+              </WithStyles(DialogTitle)>
+              <WithStyles(DialogContent)>
+                <WithStyles(DialogContentText)
+                  id="alert-dialog-description"
+                >
+                  Are you sure you want to delete this place?
+                </WithStyles(DialogContentText)>
+              </WithStyles(DialogContent)>
+              <WithStyles(DialogActions)>
+                <WithStyles(Button)
+                  color="primary"
+                  onClick={[Function]}
+                >
+                  No Cancel
+                </WithStyles(Button)>
+                <WithStyles(Button)
+                  color="secondary"
+                  onClick={[Function]}
+                >
+                  Yes I am Sure
+                </WithStyles(Button)>
+              </WithStyles(DialogActions)>
+            </WithStyles(Dialog)>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "actions": Object {
+                "deletePlace": [MockFunction],
+                "getPlaceById": [MockFunction] {
+                  "calls": Array [
+                    Array [
+                      1,
+                    ],
+                  ],
+                  "results": Array [
+                    Object {
+                      "isThrow": false,
+                      "value": undefined,
+                    },
+                  ],
+                },
+                "loadPlaces": [MockFunction],
+                "updatePlace": [MockFunction],
+              },
+              "classes": Object {},
+              "formOpen": false,
+              "handleClose": [Function],
+              "history": Object {
+                "push": [MockFunction],
+              },
+              "match": Object {
+                "params": Object {
+                  "id": 1,
+                },
+                "path": "/",
+                "url": "/",
+              },
+              "place": Object {
+                "id": 1,
+                "lat": 40,
+                "lon": 100,
+                "user": Object {
+                  "id": 1,
+                  "name": "owen",
+                },
+              },
+              "session": Object {
+                "user": Object {
+                  "user": Object {
+                    "id": 1,
+                  },
+                },
+              },
+              "updatePlace": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <WithStyles(Paper)
+                elevation={1}
+              >
+                <WithStyles(Grid)
+                  container={true}
+                  spacing={24}
+                >
+                  <WithStyles(Grid)
+                    item={true}
+                    md={6}
+                    xs={12}
+                  >
+                    <WithStyles(CardMedia)
+                      image="https://api.mapbox.com/styles/v1/mapbox/streets-v10/static/pin-s+3f51b5(100,40)/100,40},14.0,0,0/570x270@2x?access_token=pk.eyJ1Ijoib3dlbmxhbWIiLCJhIjoiY2lleWljcnF4MDBiOXQ0bHR0anRvamtucSJ9.t3YnHHqvQZ8Y0MTCNy0NNw"
+                    />
+                  </WithStyles(Grid)>
+                  <WithStyles(Grid)
+                    item={true}
+                    md={6}
+                    xs={12}
+                  >
+                    <WithStyles(CardMedia)
+                      image="IMAGE_MOCK"
+                    />
+                  </WithStyles(Grid)>
+                  <WithStyles(Grid)
+                    item={true}
+                    md={6}
+                    xs={12}
+                  >
+                    <WithStyles(Typography)
+                      component="h3"
+                      variant="h6"
+                    />
+                    <WithStyles(Typography)
+                      component="p"
+                    />
+                    <WithStyles(Typography)
+                      component="p"
+                    />
+                    <WithStyles(Typography)
+                      component="p"
+                    />
+                    <WithStyles(Typography)
+                      component="p"
+                    />
+                    <div>
+                      <WithStyles(Button)
+                        color="primary"
+                        onClick={[Function]}
+                        size="small"
+                      >
+                        Edit
+                      </WithStyles(Button)>
+                      <WithStyles(Button)
+                        color="secondary"
+                        onClick={[Function]}
+                        size="small"
+                      >
+                        Delete
+                      </WithStyles(Button)>
+                    </div>
+                  </WithStyles(Grid)>
+                  <WithStyles(Grid)
+                    item={true}
+                    md={6}
+                    xs={12}
+                  >
+                    <WithStyles(Typography)
+                      component="p"
+                      variant="caption"
+                    >
+                      <em>
+                        place added by 
+                        <b>
+                          owen
+                        </b>
+                      </em>
+                    </WithStyles(Typography)>
+                  </WithStyles(Grid)>
+                </WithStyles(Grid)>
+              </WithStyles(Paper)>,
+              "style": Object {
+                "margin": "10px",
+              },
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <WithStyles(Grid)
+                  container={true}
+                  spacing={24}
+                >
+                  <WithStyles(Grid)
+                    item={true}
+                    md={6}
+                    xs={12}
+                  >
+                    <WithStyles(CardMedia)
+                      image="https://api.mapbox.com/styles/v1/mapbox/streets-v10/static/pin-s+3f51b5(100,40)/100,40},14.0,0,0/570x270@2x?access_token=pk.eyJ1Ijoib3dlbmxhbWIiLCJhIjoiY2lleWljcnF4MDBiOXQ0bHR0anRvamtucSJ9.t3YnHHqvQZ8Y0MTCNy0NNw"
+                    />
+                  </WithStyles(Grid)>
+                  <WithStyles(Grid)
+                    item={true}
+                    md={6}
+                    xs={12}
+                  >
+                    <WithStyles(CardMedia)
+                      image="IMAGE_MOCK"
+                    />
+                  </WithStyles(Grid)>
+                  <WithStyles(Grid)
+                    item={true}
+                    md={6}
+                    xs={12}
+                  >
+                    <WithStyles(Typography)
+                      component="h3"
+                      variant="h6"
+                    />
+                    <WithStyles(Typography)
+                      component="p"
+                    />
+                    <WithStyles(Typography)
+                      component="p"
+                    />
+                    <WithStyles(Typography)
+                      component="p"
+                    />
+                    <WithStyles(Typography)
+                      component="p"
+                    />
+                    <div>
+                      <WithStyles(Button)
+                        color="primary"
+                        onClick={[Function]}
+                        size="small"
+                      >
+                        Edit
+                      </WithStyles(Button)>
+                      <WithStyles(Button)
+                        color="secondary"
+                        onClick={[Function]}
+                        size="small"
+                      >
+                        Delete
+                      </WithStyles(Button)>
+                    </div>
+                  </WithStyles(Grid)>
+                  <WithStyles(Grid)
+                    item={true}
+                    md={6}
+                    xs={12}
+                  >
+                    <WithStyles(Typography)
+                      component="p"
+                      variant="caption"
+                    >
+                      <em>
+                        place added by 
+                        <b>
+                          owen
+                        </b>
+                      </em>
+                    </WithStyles(Typography)>
+                  </WithStyles(Grid)>
+                </WithStyles(Grid)>,
+                "className": undefined,
+                "elevation": 1,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <WithStyles(Grid)
+                      item={true}
+                      md={6}
+                      xs={12}
+                    >
+                      <WithStyles(CardMedia)
+                        image="https://api.mapbox.com/styles/v1/mapbox/streets-v10/static/pin-s+3f51b5(100,40)/100,40},14.0,0,0/570x270@2x?access_token=pk.eyJ1Ijoib3dlbmxhbWIiLCJhIjoiY2lleWljcnF4MDBiOXQ0bHR0anRvamtucSJ9.t3YnHHqvQZ8Y0MTCNy0NNw"
+                      />
+                    </WithStyles(Grid)>,
+                    <WithStyles(Grid)
+                      item={true}
+                      md={6}
+                      xs={12}
+                    >
+                      <WithStyles(CardMedia)
+                        image="IMAGE_MOCK"
+                      />
+                    </WithStyles(Grid)>,
+                    <WithStyles(Grid)
+                      item={true}
+                      md={6}
+                      xs={12}
+                    >
+                      <WithStyles(Typography)
+                        component="h3"
+                        variant="h6"
+                      />
+                      <WithStyles(Typography)
+                        component="p"
+                      />
+                      <WithStyles(Typography)
+                        component="p"
+                      />
+                      <WithStyles(Typography)
+                        component="p"
+                      />
+                      <WithStyles(Typography)
+                        component="p"
+                      />
+                      <div>
+                        <WithStyles(Button)
+                          color="primary"
+                          onClick={[Function]}
+                          size="small"
+                        >
+                          Edit
+                        </WithStyles(Button)>
+                        <WithStyles(Button)
+                          color="secondary"
+                          onClick={[Function]}
+                          size="small"
+                        >
+                          Delete
+                        </WithStyles(Button)>
+                      </div>
+                    </WithStyles(Grid)>,
+                    <WithStyles(Grid)
+                      item={true}
+                      md={6}
+                      xs={12}
+                    >
+                      <WithStyles(Typography)
+                        component="p"
+                        variant="caption"
+                      >
+                        <em>
+                          place added by 
+                          <b>
+                            owen
+                          </b>
+                        </em>
+                      </WithStyles(Typography)>
+                    </WithStyles(Grid)>,
+                  ],
+                  "container": true,
+                  "spacing": 24,
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <WithStyles(CardMedia)
+                        image="https://api.mapbox.com/styles/v1/mapbox/streets-v10/static/pin-s+3f51b5(100,40)/100,40},14.0,0,0/570x270@2x?access_token=pk.eyJ1Ijoib3dlbmxhbWIiLCJhIjoiY2lleWljcnF4MDBiOXQ0bHR0anRvamtucSJ9.t3YnHHqvQZ8Y0MTCNy0NNw"
+                      />,
+                      "item": true,
+                      "md": 6,
+                      "xs": 12,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "className": undefined,
+                        "image": "https://api.mapbox.com/styles/v1/mapbox/streets-v10/static/pin-s+3f51b5(100,40)/100,40},14.0,0,0/570x270@2x?access_token=pk.eyJ1Ijoib3dlbmxhbWIiLCJhIjoiY2lleWljcnF4MDBiOXQ0bHR0anRvamtucSJ9.t3YnHHqvQZ8Y0MTCNy0NNw",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <WithStyles(CardMedia)
+                        image="IMAGE_MOCK"
+                      />,
+                      "item": true,
+                      "md": 6,
+                      "xs": 12,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "className": undefined,
+                        "image": "IMAGE_MOCK",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": Array [
+                        <WithStyles(Typography)
+                          component="h3"
+                          variant="h6"
+                        />,
+                        <WithStyles(Typography)
+                          component="p"
+                        />,
+                        <WithStyles(Typography)
+                          component="p"
+                        />,
+                        <WithStyles(Typography)
+                          component="p"
+                        />,
+                        <WithStyles(Typography)
+                          component="p"
+                        />,
+                        <div>
+                          <WithStyles(Button)
+                            color="primary"
+                            onClick={[Function]}
+                            size="small"
+                          >
+                            Edit
+                          </WithStyles(Button)>
+                          <WithStyles(Button)
+                            color="secondary"
+                            onClick={[Function]}
+                            size="small"
+                          >
+                            Delete
+                          </WithStyles(Button)>
+                        </div>,
+                      ],
+                      "item": true,
+                      "md": 6,
+                      "xs": 12,
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": undefined,
+                          "component": "h3",
+                          "variant": "h6",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": undefined,
+                          "component": "p",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": undefined,
+                          "component": "p",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": undefined,
+                          "component": "p",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "children": undefined,
+                          "component": "p",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <WithStyles(Button)
+                              color="primary"
+                              onClick={[Function]}
+                              size="small"
+                            >
+                              Edit
+                            </WithStyles(Button)>,
+                            <WithStyles(Button)
+                              color="secondary"
+                              onClick={[Function]}
+                              size="small"
+                            >
+                              Delete
+                            </WithStyles(Button)>,
+                          ],
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "class",
+                            "props": Object {
+                              "children": "Edit",
+                              "color": "primary",
+                              "onClick": [Function],
+                              "size": "small",
+                            },
+                            "ref": null,
+                            "rendered": "Edit",
+                            "type": [Function],
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "class",
+                            "props": Object {
+                              "children": "Delete",
+                              "color": "secondary",
+                              "onClick": [Function],
+                              "size": "small",
+                            },
+                            "ref": null,
+                            "rendered": "Delete",
+                            "type": [Function],
+                          },
+                        ],
+                        "type": "div",
+                      },
+                    ],
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <WithStyles(Typography)
+                        component="p"
+                        variant="caption"
+                      >
+                        <em>
+                          place added by 
+                          <b>
+                            owen
+                          </b>
+                        </em>
+                      </WithStyles(Typography)>,
+                      "item": true,
+                      "md": 6,
+                      "xs": 12,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": <em>
+                          place added by 
+                          <b>
+                            owen
+                          </b>
+                        </em>,
+                        "component": "p",
+                        "variant": "caption",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            "place added by ",
+                            <b>
+                              owen
+                            </b>,
+                          ],
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          "place added by ",
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "owen",
+                            },
+                            "ref": null,
+                            "rendered": "owen",
+                            "type": "b",
+                          },
+                        ],
+                        "type": "em",
+                      },
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "aria-describedby": "alert-dialog-description",
+              "aria-labelledby": "alert-dialog-title",
+              "children": Array [
+                <WithStyles(DialogTitle)
+                  id="alert-dialog-title"
+                >
+                  Delete Place
+                </WithStyles(DialogTitle)>,
+                <WithStyles(DialogContent)>
+                  <WithStyles(DialogContentText)
+                    id="alert-dialog-description"
+                  >
+                    Are you sure you want to delete this place?
+                  </WithStyles(DialogContentText)>
+                </WithStyles(DialogContent)>,
+                <WithStyles(DialogActions)>
+                  <WithStyles(Button)
+                    color="primary"
+                    onClick={[Function]}
+                  >
+                    No Cancel
+                  </WithStyles(Button)>
+                  <WithStyles(Button)
+                    color="secondary"
+                    onClick={[Function]}
+                  >
+                    Yes I am Sure
+                  </WithStyles(Button)>
+                </WithStyles(DialogActions)>,
+              ],
+              "onClose": [Function],
+              "open": false,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "Delete Place",
+                  "id": "alert-dialog-title",
+                },
+                "ref": null,
+                "rendered": "Delete Place",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <WithStyles(DialogContentText)
+                    id="alert-dialog-description"
+                  >
+                    Are you sure you want to delete this place?
+                  </WithStyles(DialogContentText)>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": "Are you sure you want to delete this place?",
+                    "id": "alert-dialog-description",
+                  },
+                  "ref": null,
+                  "rendered": "Are you sure you want to delete this place?",
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <WithStyles(Button)
+                      color="primary"
+                      onClick={[Function]}
+                    >
+                      No Cancel
+                    </WithStyles(Button)>,
+                    <WithStyles(Button)
+                      color="secondary"
+                      onClick={[Function]}
+                    >
+                      Yes I am Sure
+                    </WithStyles(Button)>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "No Cancel",
+                      "color": "primary",
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "rendered": "No Cancel",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": "Yes I am Sure",
+                      "color": "secondary",
+                      "onClick": [Function],
+                    },
+                    "ref": null,
+                    "rendered": "Yes I am Sure",
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`PlaceDetail styles matches snapshot 1`] = `
+Object {
+  "flexGrow": 1,
+  "media": Object {
+    "height": 200,
+    "margin": 5,
+    "marginBottom": 20,
+  },
+  "root": Object {
+    "paddingBottom": 20,
+    "paddingTop": 20,
+  },
+}
+`;

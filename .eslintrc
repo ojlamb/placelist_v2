@@ -1,0 +1,54 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["airbnb", "plugin:react/recommended"],
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest": true,
+    "es6": true
+  },
+  "globals": {
+    "shallow": false,
+    "mount": false,
+    "render": false,
+  },
+  "plugins": [
+    "react",
+    "jsx-a11y"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "comma-dangle": 0,
+    "global-require": 0,
+    "import/no-extraneous-dependencies": 0,
+    "import/no-named-as-default": 0,
+    "import/no-unresolved": 0,
+    "import/order": 0,
+    "import/prefer-default-export": 0,
+    "jsx-a11y/anchor-is-valid": 0,
+    "jsx-a11y/click-events-have-key-events": 0,
+    "jsx-a11y/label-has-associated-control": 0,
+    "jsx-a11y/label-has-for": 0,
+    "jsx-a11y/no-static-element-interactions": 0,
+    "max-len": ["error", 200, 4, { "comments": 200 }],
+    "no-mixed-operators": 0,
+    "no-plusplus": 0,
+    "no-shadow": 0,
+    "no-underscore-dangle": 0,
+    "object-curly-newline": 0,
+    "operator-linebreak": 0,
+    "react/destructuring-assignment": 0,
+    "react/display-name": 0,
+    "react/jsx-one-expression-per-line": 0,
+    "react/jsx-filename-extension": 0,
+    "react/no-array-index-key": 0,
+    "react/no-unused-prop-types": 1,
+    "react/forbid-prop-types": 0
+  }
+}
