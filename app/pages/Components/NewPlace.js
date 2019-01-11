@@ -15,13 +15,6 @@ import MUIPlacesAutocomplete, {
   geocodeByPlaceID
 } from 'mui-places-autocomplete';
 
-// istanbul ignore next
-fieldValidatorCore.addSupport(
-  'TextField',
-  event => event[0].target.value,
-  (callback, args) => callback(args[0], undefined, args[0].target.value),
-  'error'
-);
 
 export class NewPlace extends React.Component {
   constructor(props) {
@@ -170,46 +163,30 @@ export class NewPlace extends React.Component {
                 />
               )}
             />
-            <Validation
-              group="myGroup1"
-              validators={[
-                {
-                  validator: val => !validator.isEmpty(val)
-                }
-              ]}
-            >
-              <TextField
-                margin="dense"
-                id="name"
-                label="Name"
-                type="name"
-                fullWidth
-                error={!this.hasName}
-                helperText={this.hasName ? '' : 'Name cannot be blank'}
-                onChange={this.onNameChange}
-                value={this.state.place.name}
-              />
-            </Validation>
-            <Validation
-              group="myGroup1"
-              validators={[
-                {
-                  validator: val => !validator.isEmpty(val)
-                }
-              ]}
-            >
-              <TextField
-                margin="dense"
-                id="name"
-                label="Address"
-                type="address"
-                fullWidth
-                error={!this.hasAddress}
-                helperText={this.hasAddress ? '' : 'Address cannot be blank'}
-                onChange={this.onAddressChange}
-                value={this.state.place.address}
-              />
-            </Validation>
+
+            <TextField
+              margin="dense"
+              id="name"
+              label="Name"
+              type="name"
+              fullWidth
+              error={!this.hasName}
+              helperText={this.hasName ? '' : 'Name cannot be blank'}
+              onChange={this.onNameChange}
+              value={this.state.place.name}
+            />
+
+            <TextField
+              margin="dense"
+              id="name"
+              label="Address"
+              type="address"
+              fullWidth
+              error={!this.hasAddress}
+              helperText={this.hasAddress ? '' : 'Address cannot be blank'}
+              onChange={this.onAddressChange}
+              value={this.state.place.address}
+            />
             <Select
               style={{ marginTop: '13px' }}
               onChange={this.onCategoryChange}
@@ -280,7 +257,7 @@ export class NewPlace extends React.Component {
 NewPlace.propTypes = {
   createPlace: PropTypes.func.isRequired,
   formOpen: PropTypes.bool.isRequired,
-  handleClose: PropTypes.func.isRequired
+  handleClose: PropTypes.func.isRequired,
 };
 
 export default NewPlace;

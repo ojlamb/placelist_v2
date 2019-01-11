@@ -41,10 +41,10 @@ export class PlaceView extends React.Component {
     super(props);
     this.state = {
       places: [],
-      formOpen: false,
-      handleClose: this.handleClose,
-      createPlace: this.createPlace
+      formOpen: false
     };
+    this.createPlace = this.createPlace.bind(this);
+    this.handleClose = this.handleClose.bind(this);
   }
 
   componentDidMount() {
@@ -77,7 +77,7 @@ export class PlaceView extends React.Component {
         >
           <AddIcon />
         </Fab>
-        <NewPlace {...this.state} />
+        <NewPlace {...this.state} createPlace={this.createPlace} handleClose={this.handleClose} />
         <div
           style={{ maxHeight: '100vh', overflow: 'auto' }}
         >
