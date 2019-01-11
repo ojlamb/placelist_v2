@@ -1,0 +1,331 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlaceInfo snapshots Scenario 1 matches snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <PlaceInfo
+    actions={
+      Object {
+        "createPlace": [MockFunction],
+        "loadPlaces": [MockFunction],
+      }
+    }
+    classes={Object {}}
+    place={
+      Object {
+        "address": "123 main st.",
+        "category": "dinner",
+        "description": "a cool place",
+        "id": 1,
+        "name": "place 1",
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h4>
+          place 1
+        </h4>,
+        <img
+          alt=""
+          src="IMAGE_MOCK"
+          width={240}
+        />,
+        <br />,
+        <Link
+          replace={false}
+          to="/place/1"
+        >
+          <WithStyles(Button)
+            color="primary"
+            size="small"
+          >
+            More
+          </WithStyles(Button)>
+        </Link>,
+        <a
+          href="https://www.google.com/search?q=place 1, 123 main st."
+          target="_new"
+        >
+          <WithStyles(Button)
+            color="primary"
+            size="small"
+          >
+            Google
+          </WithStyles(Button)>
+        </a>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "place 1",
+        },
+        "ref": null,
+        "rendered": "place 1",
+        "type": "h4",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "alt": "",
+          "src": "IMAGE_MOCK",
+          "width": 240,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "img",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "br",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <WithStyles(Button)
+            color="primary"
+            size="small"
+          >
+            More
+          </WithStyles(Button)>,
+          "className": undefined,
+          "replace": false,
+          "to": "/place/1",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "More",
+            "color": "primary",
+            "size": "small",
+          },
+          "ref": null,
+          "rendered": "More",
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <WithStyles(Button)
+            color="primary"
+            size="small"
+          >
+            Google
+          </WithStyles(Button)>,
+          "className": undefined,
+          "href": "https://www.google.com/search?q=place 1, 123 main st.",
+          "target": "_new",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "Google",
+            "color": "primary",
+            "size": "small",
+          },
+          "ref": null,
+          "rendered": "Google",
+          "type": [Function],
+        },
+        "type": "a",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h4>
+            place 1
+          </h4>,
+          <img
+            alt=""
+            src="IMAGE_MOCK"
+            width={240}
+          />,
+          <br />,
+          <Link
+            replace={false}
+            to="/place/1"
+          >
+            <WithStyles(Button)
+              color="primary"
+              size="small"
+            >
+              More
+            </WithStyles(Button)>
+          </Link>,
+          <a
+            href="https://www.google.com/search?q=place 1, 123 main st."
+            target="_new"
+          >
+            <WithStyles(Button)
+              color="primary"
+              size="small"
+            >
+              Google
+            </WithStyles(Button)>
+          </a>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "place 1",
+          },
+          "ref": null,
+          "rendered": "place 1",
+          "type": "h4",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "alt": "",
+            "src": "IMAGE_MOCK",
+            "width": 240,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "br",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <WithStyles(Button)
+              color="primary"
+              size="small"
+            >
+              More
+            </WithStyles(Button)>,
+            "className": undefined,
+            "replace": false,
+            "to": "/place/1",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "More",
+              "color": "primary",
+              "size": "small",
+            },
+            "ref": null,
+            "rendered": "More",
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <WithStyles(Button)
+              color="primary"
+              size="small"
+            >
+              Google
+            </WithStyles(Button)>,
+            "className": undefined,
+            "href": "https://www.google.com/search?q=place 1, 123 main st.",
+            "target": "_new",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Google",
+              "color": "primary",
+              "size": "small",
+            },
+            "ref": null,
+            "rendered": "Google",
+            "type": [Function],
+          },
+          "type": "a",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

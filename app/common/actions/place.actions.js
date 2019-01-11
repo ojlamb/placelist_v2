@@ -16,7 +16,6 @@ export function requestHeaders() {
 export function loadPlacesSuccess(places) {
   return { type: LOAD_PLACES_SUCCESS, payload: places };
 }
-console.log(BASE_URL);
 
 const loadData = headers => axios.get(`${BASE_URL}/places`, { headers });
 
